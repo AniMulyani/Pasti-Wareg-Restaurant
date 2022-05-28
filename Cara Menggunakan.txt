@@ -1,0 +1,6 @@
+Cara menggunakan :
+
+1. Extract File,
+2. Import Database kasir_cafe(1),
+3. Install File yang ada di dalam Setup Files,
+4. Selesai.

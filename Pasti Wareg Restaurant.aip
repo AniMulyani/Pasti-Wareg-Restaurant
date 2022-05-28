@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="19.5" version="19.5" Modules="professional" RootPath="." Language="id" Id="{B566E25C-7F8E-46B5-A960-672F2B89FFFF}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Pilih paket instalasi untuk [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_IA_APPLICATION_ID" Value="6291a40a732f1f772a6bcb49"/>
+    <ROW Property="AI_IA_ENABLE" Value="1"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 19.5 build 36301275" ValueLocId="-"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_ALL"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Basis data penginstal ini berisi logika dan data yang dibutuhkan untuk menginstal  [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="icon1.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="Restaurant"/>
+    <ROW Property="ProductCode" Value="1033:{8A84475F-8F33-4073-88EB-D0BF4D27FF97} 1057:{8A84475F-8F33-4073-88EB-D0BF4D27FF97} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Pasti Wareg Restaurant"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{1CB376BB-077D-467C-89BB-07C7E733E6BB}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="bin_1_Dir" Directory_Parent="jre_Dir" DefaultDir="bin"/>
+    <ROW Directory="bin_Dir" Directory_Parent="APPDIR" DefaultDir="bin"/>
+    <ROW Directory="build_Dir" Directory_Parent="APPDIR" DefaultDir="build"/>
+    <ROW Directory="classes_Dir" Directory_Parent="build_Dir" DefaultDir="classes"/>
+    <ROW Directory="client_Dir" Directory_Parent="bin_1_Dir" DefaultDir="client"/>
+    <ROW Directory="cmm_Dir" Directory_Parent="lib_1_Dir" DefaultDir="cmm"/>
+    <ROW Directory="cursors_Dir" Directory_Parent="images_Dir" DefaultDir="cursors"/>
+    <ROW Directory="deploy_Dir" Directory_Parent="lib_1_Dir" DefaultDir="deploy"/>
+    <ROW Directory="dist_Dir" Directory_Parent="APPDIR" DefaultDir="dist"/>
+    <ROW Directory="dtplugin_Dir" Directory_Parent="bin_1_Dir" DefaultDir="dtplugin"/>
+    <ROW Directory="ext_Dir" Directory_Parent="lib_1_Dir" DefaultDir="ext"/>
+    <ROW Directory="fonts_Dir" Directory_Parent="lib_1_Dir" DefaultDir="fonts"/>
+    <ROW Directory="gambar_1_Dir" Directory_Parent="src_Dir" DefaultDir="gambar"/>
+    <ROW Directory="gambar_2_Dir" Directory_Parent="src_1_Dir" DefaultDir="gambar"/>
+    <ROW Directory="gambar_Dir" Directory_Parent="classes_Dir" DefaultDir="gambar"/>
+    <ROW Directory="i386_Dir" Directory_Parent="lib_1_Dir" DefaultDir="i386"/>
+    <ROW Directory="images_Dir" Directory_Parent="lib_1_Dir" DefaultDir="images"/>
+    <ROW Directory="jfr_Dir" Directory_Parent="lib_1_Dir" DefaultDir="jfr"/>
+    <ROW Directory="jre_Dir" Directory_Parent="APPDIR" DefaultDir="jre"/>
+    <ROW Directory="kasircafe_ani_1_Dir" Directory_Parent="src_Dir" DefaultDir="KASIRC~1|kasircafe_ani"/>
+    <ROW Directory="kasircafe_ani_2_Dir" Directory_Parent="src_1_Dir" DefaultDir="KASIRC~1|kasircafe_ani"/>
+    <ROW Directory="kasircafe_ani_Dir" Directory_Parent="classes_Dir" DefaultDir="KASIRC~1|kasircafe_ani"/>
+    <ROW Directory="lib_1_Dir" Directory_Parent="jre_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_Dir" Directory_Parent="dist_Dir" DefaultDir="lib"/>
+    <ROW Directory="management_Dir" Directory_Parent="lib_1_Dir" DefaultDir="MANAGE~1|management"/>
+    <ROW Directory="nbproject_Dir" Directory_Parent="APPDIR" DefaultDir="NBPROJ~1|nbproject"/>
+    <ROW Directory="plugin2_Dir" Directory_Parent="bin_1_Dir" DefaultDir="plugin2"/>
+    <ROW Directory="private_Dir" Directory_Parent="nbproject_Dir" DefaultDir="private"/>
+    <ROW Directory="security_Dir" Directory_Parent="lib_1_Dir" DefaultDir="security"/>
+    <ROW Directory="server_Dir" Directory_Parent="bin_1_Dir" DefaultDir="server"/>
+    <ROW Directory="src_1_Dir" Directory_Parent="APPDIR" DefaultDir="src"/>
+    <ROW Directory="src_Dir" Directory_Parent="dist_Dir" DefaultDir="src"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{0D954299-4B03-429E-AFDF-E50B2A7B2F23}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="AI_IA_ENABLE" ComponentId="{D9D0377F-B451-49F4-B290-1D1C516619C8}" Directory_="APPDIR" Attributes="4" KeyPath="AI_IA_ENABLE" Options="1"/>
+    <ROW Component="APPDIR" ComponentId="{0930072F-9BB6-435F-A693-9BBB6D29BC73}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Admin.form" ComponentId="{00B44350-AF4A-48D5-B809-6A1102E6149E}" Directory_="kasircafe_ani_1_Dir" Attributes="0" KeyPath="Admin.form" Type="0"/>
+    <ROW Component="Admin.form_1" ComponentId="{8EC3EE6A-24B9-49F3-9BA2-187C95C3EA00}" Directory_="kasircafe_ani_2_Dir" Attributes="0" KeyPath="Admin.form_1" Type="0"/>
+    <ROW Component="Admin1.class" ComponentId="{8689515D-16C6-450D-B6CC-2547D67373BC}" Directory_="kasircafe_ani_Dir" Attributes="0" KeyPath="Admin1.class" Type="0"/>
+    <ROW Component="CIEXYZ.pf" ComponentId="{B20A266B-E0F1-46F7-B58A-CCB4A6660F19}" Directory_="cmm_Dir" Attributes="0" KeyPath="CIEXYZ.pf" Type="0"/>
+    <ROW Component="COPYRIGHT" ComponentId="{AF4CF87D-B263-453E-B827-64E27BD62100}" Directory_="jre_Dir" Attributes="0" KeyPath="COPYRIGHT" Type="0"/>
+    <ROW Component="JAWTAccessBridge32.dll" ComponentId="{91E857C3-9CD8-4BD5-A04A-BE84FD420305}" Directory_="bin_1_Dir" Attributes="0" KeyPath="JAWTAccessBridge32.dll"/>
+    <ROW Component="JavaAccessBridge32.dll" ComponentId="{5AA4E392-537A-4CE6-8691-F9BE70D54311}" Directory_="bin_1_Dir" Attributes="0" KeyPath="JavaAccessBridge32.dll"/>
+    <ROW Component="LucidaBrightDemiBold.ttf" ComponentId="{666F97D7-BA3D-4746-B9CC-D0FBE56D4EF5}" Directory_="fonts_Dir" Attributes="0" Type="0"/>
+    <ROW Component="PastiWaregRestaurant.exe" ComponentId="{883666E7-600F-49E2-9250-037B5144C012}" Directory_="APPDIR" Attributes="0" KeyPath="PastiWaregRestaurant.exe"/>
+    <ROW Component="ProductInformation" ComponentId="{357FEC9A-96E5-40FA-B2BC-554D9D13DDE9}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="WindowsAccessBridge32.dll" ComponentId="{D4F6CE0A-C5E6-4303-B8AC-AD7ADB3B9F78}" Directory_="bin_1_Dir" Attributes="0" KeyPath="WindowsAccessBridge32.dll"/>
+    <ROW Component="Xusage.txt" ComponentId="{41ED1626-4B87-4166-B0F1-54D4C1123215}" Directory_="server_Dir" Attributes="0" KeyPath="Xusage.txt_1" Type="0"/>
+    <ROW Component="accessbridge32.jar" ComponentId="{DB1BD0BA-2848-4203-8211-6C715C31A479}" Directory_="ext_Dir" Attributes="0" KeyPath="accessbridge32.jar" Type="0"/>
+    <ROW Component="accessibility.properties" ComponentId="{8C2C9821-E7C9-4D5A-9A5A-8C4B2C0060B8}" Directory_="lib_1_Dir" Attributes="0" KeyPath="accessibility.properties" Type="0"/>
+    <ROW Component="appletviewer.exe" ComponentId="{DC9A4B88-619E-4781-9739-4B674E7E6712}" Directory_="bin_Dir" Attributes="0" KeyPath="appletviewer.exe"/>
+    <ROW Component="attach.dll" ComponentId="{6B7F98D1-E16F-4F74-B1EE-90E9E71F7698}" Directory_="bin_1_Dir" Attributes="0" KeyPath="attach.dll"/>
+    <ROW Component="awt.dll" ComponentId="{FBB87D2B-8FA9-4EF6-88FD-F02FE06EC10E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="awt.dll"/>
+    <ROW Component="bci.dll" ComponentId="{DEB1A476-11BD-4316-BEC6-1EC9ED5F3F41}" Directory_="bin_1_Dir" Attributes="0" KeyPath="bci.dll"/>
+    <ROW Component="blacklist" ComponentId="{CB890856-9467-4522-B0BE-72F6CF4896A2}" Directory_="security_Dir" Attributes="0" KeyPath="blacklist" Type="0"/>
+    <ROW Component="build.xml" ComponentId="{8B7F7AA0-6F9F-4B9E-A5F5-F4BAEBAFECC4}" Directory_="APPDIR" Attributes="0" KeyPath="build.xml" Type="0"/>
+    <ROW Component="buildimpl.xml" ComponentId="{E5295657-CDF2-40F7-8881-A29F5311AE01}" Directory_="nbproject_Dir" Attributes="0" KeyPath="buildimpl.xml" Type="0"/>
+    <ROW Component="builtjar.properties" ComponentId="{5D3876D2-CA99-4F69-B0BE-79679D992277}" Directory_="build_Dir" Attributes="0" KeyPath="builtjar.properties" Type="0"/>
+    <ROW Component="classes.jsa" ComponentId="{E084654E-C75A-4724-A0EA-7B5B98555AF3}" Directory_="client_Dir" Attributes="0" KeyPath="classes.jsa" Type="0"/>
+    <ROW Component="cursors.properties" ComponentId="{BFF28A87-0B8D-4BE5-9D64-5834F480C851}" Directory_="cursors_Dir" Attributes="0" KeyPath="cursors.properties" Type="0"/>
+    <ROW Component="dcpr.dll" ComponentId="{9C762D25-D99A-44C6-8899-20AD881F264D}" Directory_="bin_1_Dir" Attributes="0" KeyPath="dcpr.dll"/>
+    <ROW Component="decora_sse.dll" ComponentId="{3158322C-B15A-4EA5-96A1-77C52B885FF3}" Directory_="bin_1_Dir" Attributes="0" KeyPath="decora_sse.dll"/>
+    <ROW Component="default.jfc" ComponentId="{B27C981D-DDF6-4FD6-B2BF-E17C83869EA8}" Directory_="jfr_Dir" Attributes="0" KeyPath="default.jfc" Type="0"/>
+    <ROW Component="deploy.dll" ComponentId="{D9F18532-8238-4180-9CD4-E468224A13D6}" Directory_="bin_1_Dir" Attributes="0" KeyPath="deploy.dll"/>
+    <ROW Component="deployJava1.dll" ComponentId="{66DEE780-D69B-4A3D-B54D-0E0C7D98B9A3}" Directory_="dtplugin_Dir" Attributes="0" KeyPath="deployJava1.dll"/>
+    <ROW Component="dt_shmem.dll" ComponentId="{9B084609-1044-42BE-A212-56F697928767}" Directory_="bin_1_Dir" Attributes="0" KeyPath="dt_shmem.dll"/>
+    <ROW Component="dt_socket.dll" ComponentId="{C49A24A3-055F-401C-A6C6-DF7C91DE0BCE}" Directory_="bin_1_Dir" Attributes="0" KeyPath="dt_socket.dll"/>
+    <ROW Component="eula.dll" ComponentId="{02ECFC2A-45FA-4C1F-AA29-BC3AD441FD61}" Directory_="bin_1_Dir" Attributes="0" KeyPath="eula.dll"/>
+    <ROW Component="extcheck.exe" ComponentId="{D05A9E04-3483-4FF0-A817-7388F5FF77D5}" Directory_="bin_Dir" Attributes="0" KeyPath="extcheck.exe"/>
+    <ROW Component="ffjcext.zip" ComponentId="{4DFD50C5-6157-4A77-AFF5-B0E4E8F35805}" Directory_="deploy_Dir" Attributes="0" KeyPath="ffjcext.zip" Type="0"/>
+    <ROW Component="fontmanager.dll" ComponentId="{8FBC7A80-0729-47D5-941F-2D40247BDAB6}" Directory_="bin_1_Dir" Attributes="0" KeyPath="fontmanager.dll"/>
+    <ROW Component="fxplugins.dll" ComponentId="{6E9AA48F-0EE2-48BE-B896-3393ECDF6A00}" Directory_="bin_1_Dir" Attributes="0" KeyPath="fxplugins.dll"/>
+    <ROW Component="glass.dll" ComponentId="{C04AB145-DE8A-4AFC-8735-80B1CB65D452}" Directory_="bin_1_Dir" Attributes="0" KeyPath="glass.dll"/>
+    <ROW Component="gliblite.dll" ComponentId="{4BC4A81E-D3F6-4436-B03C-74244F850303}" Directory_="bin_1_Dir" Attributes="0" KeyPath="gliblite.dll"/>
+    <ROW Component="gstreamerlite.dll" ComponentId="{223F6D7D-6748-434A-B29C-F08EF116B547}" Directory_="bin_1_Dir" Attributes="0" KeyPath="gstreamerlite.dll"/>
+    <ROW Component="hamcrestcore1.3.jar" ComponentId="{71F02D91-276E-4D68-A6D1-6D1F6CDEEEC0}" Directory_="lib_Dir" Attributes="0" KeyPath="hamcrestcore1.3.jar" Type="0"/>
+    <ROW Component="hprof.dll" ComponentId="{A93BB7F4-E856-4C8D-94B5-E487DBF22B00}" Directory_="bin_1_Dir" Attributes="0" KeyPath="hprof.dll"/>
+    <ROW Component="icons8_add_30px.png" ComponentId="{D1536DAA-8303-4BCD-A9EE-52EAFC07506D}" Directory_="gambar_Dir" Attributes="0" KeyPath="icons8_add_30px.png" Type="0"/>
+    <ROW Component="icons8_add_30px.png_1" ComponentId="{C785AA97-B8C4-46B2-A529-958C63843B06}" Directory_="gambar_1_Dir" Attributes="0" KeyPath="icons8_add_30px.png_1" Type="0"/>
+    <ROW Component="icons8_add_30px.png_2" ComponentId="{6D68041C-1266-4A53-8C38-D143BD03E884}" Directory_="gambar_2_Dir" Attributes="0" KeyPath="icons8_add_30px.png_2" Type="0"/>
+    <ROW Component="idlj.exe" ComponentId="{5820495E-F4CF-4F71-9ED3-5D195E8B56EE}" Directory_="bin_Dir" Attributes="0" KeyPath="idlj.exe"/>
+    <ROW Component="instrument.dll" ComponentId="{C3A9B050-6CFC-42C1-816B-CFC4462DED3E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="instrument.dll"/>
+    <ROW Component="j2pcsc.dll" ComponentId="{92D80391-E02D-4424-A9F8-A78CD79EB5AA}" Directory_="bin_1_Dir" Attributes="0" KeyPath="j2pcsc.dll"/>
+    <ROW Component="j2pkcs11.dll" ComponentId="{819C3EE0-EFE1-4281-B5F8-F1D45E86AB64}" Directory_="bin_1_Dir" Attributes="0" KeyPath="j2pkcs11.dll"/>
+    <ROW Component="jaas_nt.dll" ComponentId="{B649C6D3-F860-4880-92BF-D581271DA66F}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jaas_nt.dll"/>
+    <ROW Component="jabswitch.exe" ComponentId="{9C4152FC-48AF-41B6-8DAE-51A2BE066ACD}" Directory_="bin_Dir" Attributes="0" KeyPath="jabswitch.exe"/>
+    <ROW Component="jabswitch.exe_1" ComponentId="{2228755D-DA78-409A-A785-DDE398186892}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jabswitch.exe_1"/>
+    <ROW Component="jar.exe" ComponentId="{D365ECF7-EE41-4C5A-B968-3DE25BDA335F}" Directory_="bin_Dir" Attributes="0" KeyPath="jar.exe"/>
+    <ROW Component="jarsigner.exe" ComponentId="{7BE93CBB-92B3-4C90-8628-1B98BA13938E}" Directory_="bin_Dir" Attributes="0" KeyPath="jarsigner.exe"/>
+    <ROW Component="java.dll" ComponentId="{E74F3DCD-ECAB-4D23-9F79-EE9971A947E2}" Directory_="bin_1_Dir" Attributes="0" KeyPath="java.dll"/>
+    <ROW Component="java.exe" ComponentId="{430D1CCC-70CB-4937-9DA5-1979D50372DA}" Directory_="bin_Dir" Attributes="0" KeyPath="java.exe"/>
+    <ROW Component="java.exe_1" ComponentId="{662CE477-5F73-4216-9E39-F41C187EA043}" Directory_="bin_1_Dir" Attributes="0" KeyPath="java.exe_1"/>
+    <ROW Component="java_crw_demo.dll" ComponentId="{11DFCEDE-BDCF-464A-87E4-0DCD69DBAFEF}" Directory_="bin_1_Dir" Attributes="0" KeyPath="java_crw_demo.dll"/>
+    <ROW Component="javac.exe" ComponentId="{8C59A677-AEC6-4FED-BD84-87C436CDE02A}" Directory_="bin_Dir" Attributes="0" KeyPath="javac.exe"/>
+    <ROW Component="javacpl.cpl" ComponentId="{CCDBA867-677E-4649-BED7-F2EB935EE6D3}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javacpl.cpl" Type="0"/>
+    <ROW Component="javacpl.exe" ComponentId="{46B2EB9B-BCC2-47D7-A07D-777B9D494916}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javacpl.exe"/>
+    <ROW Component="javadoc.exe" ComponentId="{0BBF9F20-59CE-4F83-A5B3-9F54DB6C06D2}" Directory_="bin_Dir" Attributes="0" KeyPath="javadoc.exe"/>
+    <ROW Component="javafx_font.dll" ComponentId="{66698244-C485-42E5-824C-555EBA02FA80}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javafx_font.dll"/>
+    <ROW Component="javafx_font_t2k.dll" ComponentId="{002516F2-3105-4E4E-BB82-E3CEE1BA6F8A}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javafx_font_t2k.dll"/>
+    <ROW Component="javafx_iio.dll" ComponentId="{13A8AC59-450C-410C-AF35-253D90859170}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javafx_iio.dll"/>
+    <ROW Component="javafxpackager.exe" ComponentId="{6F186935-44A1-46EB-B06E-95A9F105FEF6}" Directory_="bin_Dir" Attributes="0" KeyPath="javafxpackager.exe"/>
+    <ROW Component="javah.exe" ComponentId="{F001E138-2E2B-470C-8228-31D8D21EF211}" Directory_="bin_Dir" Attributes="0" KeyPath="javah.exe"/>
+    <ROW Component="javap.exe" ComponentId="{150676FA-99C0-4555-8A35-D637FF9E6F8B}" Directory_="bin_Dir" Attributes="0" KeyPath="javap.exe"/>
+    <ROW Component="javapackager.exe" ComponentId="{3101F230-DF04-4979-8263-B145A711C9EE}" Directory_="bin_Dir" Attributes="0" KeyPath="javapackager.exe"/>
+    <ROW Component="javarmi.exe" ComponentId="{C1F12F29-3C7D-4AC1-8F6A-60C3E928ECC4}" Directory_="bin_Dir" Attributes="0" KeyPath="javarmi.exe"/>
+    <ROW Component="javarmi.exe_1" ComponentId="{7A0310CD-58EF-4231-919E-189B4E6150FA}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javarmi.exe_1"/>
+    <ROW Component="javaw.exe" ComponentId="{09A55555-8AF9-4531-A113-F5DF2D4FA0D4}" Directory_="bin_Dir" Attributes="0" KeyPath="javaw.exe"/>
+    <ROW Component="javaw.exe_1" ComponentId="{58B9A13F-F13B-4A76-A0FD-24396F00B450}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javaw.exe_1"/>
+    <ROW Component="javaws.exe" ComponentId="{8DAF6354-8049-4B86-873A-52EF6AD6DE80}" Directory_="bin_Dir" Attributes="0" KeyPath="javaws.exe"/>
+    <ROW Component="javaws.exe_1" ComponentId="{34CF0EFF-3EB3-4018-815B-C1DC08637206}" Directory_="bin_1_Dir" Attributes="0" KeyPath="javaws.exe_1"/>
+    <ROW Component="jawt.dll" ComponentId="{C73F081C-25FC-409B-A309-4C86674E44DC}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jawt.dll"/>
+    <ROW Component="jcmd.exe" ComponentId="{194510D5-B8C7-45EE-B41A-91F3E123A2EE}" Directory_="bin_Dir" Attributes="0" KeyPath="jcmd.exe"/>
+    <ROW Component="jconsole.exe" ComponentId="{E35BAB5D-F693-496B-9889-AD20960A8F70}" Directory_="bin_Dir" Attributes="0" KeyPath="jconsole.exe"/>
+    <ROW Component="jdb.exe" ComponentId="{B799C441-DBA7-4367-B161-F4CEE2164022}" Directory_="bin_Dir" Attributes="0" KeyPath="jdb.exe"/>
+    <ROW Component="jdeps.exe" ComponentId="{AFA734EB-E491-4321-9FC3-86ACD6CEEB1C}" Directory_="bin_Dir" Attributes="0" KeyPath="jdeps.exe"/>
+    <ROW Component="jdwp.dll" ComponentId="{1210D6A4-1295-4401-9915-C1168B7A45C7}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jdwp.dll"/>
+    <ROW Component="jfr.dll" ComponentId="{EB89390F-ACCD-4826-8612-CFD348FCF447}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jfr.dll"/>
+    <ROW Component="jfxmedia.dll" ComponentId="{707A47B6-650D-42F0-91FD-02E9E942883A}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jfxmedia.dll"/>
+    <ROW Component="jfxwebkit.dll" ComponentId="{8A410A57-0770-4040-8FBE-D851858FA419}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jfxwebkit.dll"/>
+    <ROW Component="jhat.exe" ComponentId="{1A534F70-4344-4317-8F5E-BD194DA17796}" Directory_="bin_Dir" Attributes="0" KeyPath="jhat.exe"/>
+    <ROW Component="jinfo.exe" ComponentId="{C72A12DF-3713-4AD9-9E03-8AC9E9B3DE99}" Directory_="bin_Dir" Attributes="0" KeyPath="jinfo.exe"/>
+    <ROW Component="jjs.exe" ComponentId="{360AF3EC-7D80-4550-B512-6D0B4E9012B6}" Directory_="bin_Dir" Attributes="0" KeyPath="jjs.exe"/>
+    <ROW Component="jjs.exe_1" ComponentId="{E9838B79-DCA0-4ADB-AE50-2DAAA703BAED}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jjs.exe_1"/>
+    <ROW Component="jli.dll" ComponentId="{E2BC34D0-6BF7-4CAA-AC07-007A9C34B472}" Directory_="bin_Dir" Attributes="0" KeyPath="jli.dll"/>
+    <ROW Component="jli.dll_1" ComponentId="{F49EB299-65CD-45A4-B186-C40D4B1C433C}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jli.dll_1"/>
+    <ROW Component="jmap.exe" ComponentId="{F969A6D6-5346-4E3C-B0FD-FCB8B742C0C8}" Directory_="bin_Dir" Attributes="0" KeyPath="jmap.exe"/>
+    <ROW Component="jmc.exe" ComponentId="{4E196AE8-D94E-40C1-995F-4340453B3DE9}" Directory_="bin_Dir" Attributes="0" KeyPath="jmc.exe"/>
+    <ROW Component="jmc.ini" ComponentId="{E66CA1EA-6328-4CDE-8D47-1AF3CBF51801}" Directory_="bin_Dir" Attributes="0" KeyPath="jmc.ini" Type="0"/>
+    <ROW Component="jmxremote.access" ComponentId="{FA4A3646-B952-4092-B5D0-2D487FC4DEA0}" Directory_="management_Dir" Attributes="0" KeyPath="jmxremote.access" Type="0"/>
+    <ROW Component="jp2iexp.dll" ComponentId="{A31C6C1B-34E6-4EAD-85AA-04F594B2E526}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jp2iexp.dll"/>
+    <ROW Component="jp2launcher.exe" ComponentId="{1A69BA68-2423-4CE4-BE41-CF5EBB53E0F5}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jp2launcher.exe"/>
+    <ROW Component="jp2native.dll" ComponentId="{2D027D26-7186-41EE-9607-1417B1E7C7AB}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jp2native.dll"/>
+    <ROW Component="jp2ssv.dll" ComponentId="{27D88DB2-B93C-406B-B495-60D4AD455662}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jp2ssv.dll"/>
+    <ROW Component="jpeg.dll" ComponentId="{C45E0B4E-A203-41B6-8224-D7D9D6C0B856}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jpeg.dll"/>
+    <ROW Component="jps.exe" ComponentId="{BA060624-E124-4516-9D4C-02300617202D}" Directory_="bin_Dir" Attributes="0" KeyPath="jps.exe"/>
+    <ROW Component="jrunscript.exe" ComponentId="{340AC2B4-E250-4C58-9F5B-D4B0D57F2EA6}" Directory_="bin_Dir" Attributes="0" KeyPath="jrunscript.exe"/>
+    <ROW Component="jsadebugd.exe" ComponentId="{8526C805-E3F2-4D8F-9C4A-B02369734578}" Directory_="bin_Dir" Attributes="0" KeyPath="jsadebugd.exe"/>
+    <ROW Component="jsdt.dll" ComponentId="{FF49F1EE-A8E8-4D5C-BDBF-68684EF79676}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jsdt.dll"/>
+    <ROW Component="jsound.dll" ComponentId="{095F0338-1CDF-465C-B6D8-0AEFE9D73ACB}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jsound.dll"/>
+    <ROW Component="jsoundds.dll" ComponentId="{158ECD87-306F-4164-B2C7-41243BC7E22E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="jsoundds.dll"/>
+    <ROW Component="jstack.exe" ComponentId="{019D94D6-CEB5-4BE1-98F3-A688C8E2505A}" Directory_="bin_Dir" Attributes="0" KeyPath="jstack.exe"/>
+    <ROW Component="jstat.exe" ComponentId="{7E46E36B-A7AA-405C-B49F-90E36CB7CF4B}" Directory_="bin_Dir" Attributes="0" KeyPath="jstat.exe"/>
+    <ROW Component="jstatd.exe" ComponentId="{D06E54E3-3D3A-459A-A4B6-8B6BA7E68E40}" Directory_="bin_Dir" Attributes="0" KeyPath="jstatd.exe"/>
+    <ROW Component="jvisualvm.exe" ComponentId="{F2C2485A-273C-43F7-ABFE-372C06699CE7}" Directory_="bin_Dir" Attributes="0" KeyPath="jvisualvm.exe"/>
+    <ROW Component="jvm.cfg" ComponentId="{DCEE609D-594E-447B-9EFF-D295C3A9E22D}" Directory_="i386_Dir" Attributes="0" KeyPath="jvm.cfg" Type="0"/>
+    <ROW Component="jvm.dll" ComponentId="{C2D7A03A-EA68-49B1-B113-3AF60BFCBD2A}" Directory_="client_Dir" Attributes="0" KeyPath="jvm.dll"/>
+    <ROW Component="jvm.dll_1" ComponentId="{3EAA3B89-2FEF-4B7C-9429-43B0ABABEFB6}" Directory_="server_Dir" Attributes="0" KeyPath="jvm.dll_1"/>
+    <ROW Component="kasircafe_ani_1.jar" ComponentId="{25EAE5E2-FE57-402F-A386-7D62A7DD8A64}" Directory_="dist_Dir" Attributes="0" KeyPath="kasircafe_ani_1.jar" Type="0"/>
+    <ROW Component="kcms.dll" ComponentId="{5F54E2A3-53AD-4455-B08F-450E583D16D2}" Directory_="bin_1_Dir" Attributes="0" KeyPath="kcms.dll"/>
+    <ROW Component="keytool.exe" ComponentId="{B412D390-6400-480E-986C-F7B1B8FD3EC8}" Directory_="bin_Dir" Attributes="0" KeyPath="keytool.exe"/>
+    <ROW Component="keytool.exe_1" ComponentId="{C1B58A22-79C5-42C7-BA42-5DA2108AD85E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="keytool.exe_1"/>
+    <ROW Component="kinit.exe" ComponentId="{CDFD5707-839A-4C58-9E71-DFD441047C75}" Directory_="bin_Dir" Attributes="0" KeyPath="kinit.exe"/>
+    <ROW Component="kinit.exe_1" ComponentId="{7510E54A-FC7C-4164-A95D-F0936F898D08}" Directory_="bin_1_Dir" Attributes="0" KeyPath="kinit.exe_1"/>
+    <ROW Component="klist.exe" ComponentId="{B59C0441-19ED-4A20-BF91-C11E082C340D}" Directory_="bin_Dir" Attributes="0" KeyPath="klist.exe"/>
+    <ROW Component="klist.exe_1" ComponentId="{C9EEE65B-8D11-45B7-ADA8-483AED226740}" Directory_="bin_1_Dir" Attributes="0" KeyPath="klist.exe_1"/>
+    <ROW Component="ktab.exe" ComponentId="{A736651C-1D35-4FAA-BED6-90AA1C0D92F3}" Directory_="bin_Dir" Attributes="0" KeyPath="ktab.exe"/>
+    <ROW Component="ktab.exe_1" ComponentId="{248A9E4D-3805-41F6-B103-B0627AB34B46}" Directory_="bin_1_Dir" Attributes="0" KeyPath="ktab.exe_1"/>
+    <ROW Component="lcms.dll" ComponentId="{4D759A7B-2FB1-46E6-9228-878C623CABCD}" Directory_="bin_1_Dir" Attributes="0" KeyPath="lcms.dll"/>
+    <ROW Component="management.dll" ComponentId="{8E8FAB07-438E-4A2A-8A12-AFE1C7D2ABD1}" Directory_="bin_1_Dir" Attributes="0" KeyPath="management.dll"/>
+    <ROW Component="mlib_image.dll" ComponentId="{1ABB2FBC-24FF-467A-AEBE-8D38358D9763}" Directory_="bin_1_Dir" Attributes="0" KeyPath="mlib_image.dll"/>
+    <ROW Component="msvcp120.dll" ComponentId="{4EFE6F9F-EC89-45B4-8AB5-A6A9F1E65911}" Directory_="bin_1_Dir" Attributes="0" KeyPath="msvcp120.dll"/>
+    <ROW Component="msvcr100.dll" ComponentId="{3F5DFA68-6713-4B16-9CFF-587CB450827D}" Directory_="bin_Dir" Attributes="0" KeyPath="msvcr100.dll"/>
+    <ROW Component="msvcr100.dll_1" ComponentId="{AC78EA94-42E0-4605-8766-1BD512C9938E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="msvcr100.dll_1"/>
+    <ROW Component="msvcr100.dll_2" ComponentId="{78ACA1EA-234B-4838-B7AB-87489C8D4BE3}" Directory_="plugin2_Dir" Attributes="0" KeyPath="msvcr100.dll_2"/>
+    <ROW Component="msvcr120.dll" ComponentId="{EAA4D3AC-7922-4BED-952D-77ED85C28A8A}" Directory_="bin_1_Dir" Attributes="0" KeyPath="msvcr120.dll"/>
+    <ROW Component="native2ascii.exe" ComponentId="{2A1938D7-9AE3-43CA-836D-273129922318}" Directory_="bin_Dir" Attributes="0" KeyPath="native2ascii.exe"/>
+    <ROW Component="net.dll" ComponentId="{CA074A76-FF78-4D18-8759-5C6C67C37C7A}" Directory_="bin_1_Dir" Attributes="0" KeyPath="net.dll"/>
+    <ROW Component="nio.dll" ComponentId="{D68CEB9A-A78A-47DA-8C8C-69AAD5B11F17}" Directory_="bin_1_Dir" Attributes="0" KeyPath="nio.dll"/>
+    <ROW Component="npdeployJava1.dll" ComponentId="{2A5F7329-C757-426B-9A15-FF6CA253A017}" Directory_="dtplugin_Dir" Attributes="0" KeyPath="npdeployJava1.dll"/>
+    <ROW Component="npjp2.dll" ComponentId="{2F41ACF0-DADF-4961-95F2-AC45FF0DEC48}" Directory_="plugin2_Dir" Attributes="0" KeyPath="npjp2.dll"/>
+    <ROW Component="npt.dll" ComponentId="{3E3AF1BF-F8C3-4368-9B1D-0EF33AAA91BB}" Directory_="bin_1_Dir" Attributes="0" KeyPath="npt.dll"/>
+    <ROW Component="orbd.exe" ComponentId="{3532CC71-D5C7-4051-AB35-8C59887FF280}" Directory_="bin_Dir" Attributes="0" KeyPath="orbd.exe"/>
+    <ROW Component="orbd.exe_1" ComponentId="{37466257-2A71-4011-AB20-11AD0EB1E880}" Directory_="bin_1_Dir" Attributes="0" KeyPath="orbd.exe_1"/>
+    <ROW Component="pack200.exe" ComponentId="{634A5F7E-2972-4333-9A33-9935AE95BB25}" Directory_="bin_Dir" Attributes="0" KeyPath="pack200.exe"/>
+    <ROW Component="pack200.exe_1" ComponentId="{E51EAC26-97FE-47BF-AC80-C79168BBB0AF}" Directory_="bin_1_Dir" Attributes="0" KeyPath="pack200.exe_1"/>
+    <ROW Component="policytool.exe" ComponentId="{F12151A8-87CD-492F-9088-1D2757C129D6}" Directory_="bin_Dir" Attributes="0" KeyPath="policytool.exe"/>
+    <ROW Component="policytool.exe_1" ComponentId="{94DF1DA6-3864-411D-820E-E3788698BE18}" Directory_="bin_1_Dir" Attributes="0" KeyPath="policytool.exe_1"/>
+    <ROW Component="prism_common.dll" ComponentId="{9ADCE07E-1AC4-48FC-8577-C4F48762843A}" Directory_="bin_1_Dir" Attributes="0" KeyPath="prism_common.dll"/>
+    <ROW Component="prism_d3d.dll" ComponentId="{554AC53A-6F7F-4B8F-B499-DE8192A03F40}" Directory_="bin_1_Dir" Attributes="0" KeyPath="prism_d3d.dll"/>
+    <ROW Component="prism_sw.dll" ComponentId="{9536D92A-C88C-4E31-B455-05B553ECF229}" Directory_="bin_1_Dir" Attributes="0" KeyPath="prism_sw.dll"/>
+    <ROW Component="private.properties" ComponentId="{01769639-53AF-463F-B417-D2852998060C}" Directory_="private_Dir" Attributes="0" KeyPath="private.properties" Type="0"/>
+    <ROW Component="resource.dll" ComponentId="{D4A40C46-C5AB-414A-AEE3-E15D594BF89F}" Directory_="bin_1_Dir" Attributes="0" KeyPath="resource.dll"/>
+    <ROW Component="rmic.exe" ComponentId="{5C5088B5-EF1F-44F6-8A1F-DBCA107BEE13}" Directory_="bin_Dir" Attributes="0" KeyPath="rmic.exe"/>
+    <ROW Component="rmid.exe" ComponentId="{F2DE784A-3684-4E90-9C39-A549BA7FFFB2}" Directory_="bin_Dir" Attributes="0" KeyPath="rmid.exe"/>
+    <ROW Component="rmid.exe_1" ComponentId="{507061BC-74D8-48C4-B67E-3B0BC5573784}" Directory_="bin_1_Dir" Attributes="0" KeyPath="rmid.exe_1"/>
+    <ROW Component="rmiregistry.exe" ComponentId="{A24100A1-93C2-44F9-8570-0A5312C03BF4}" Directory_="bin_Dir" Attributes="0" KeyPath="rmiregistry.exe"/>
+    <ROW Component="rmiregistry.exe_1" ComponentId="{48D691DF-80BC-4024-AE55-E95CBEC56015}" Directory_="bin_1_Dir" Attributes="0" KeyPath="rmiregistry.exe_1"/>
+    <ROW Component="sawindbg.dll" ComponentId="{0E89373A-8EA9-4D92-95BC-35846B468411}" Directory_="bin_1_Dir" Attributes="0" KeyPath="sawindbg.dll"/>
+    <ROW Component="schemagen.exe" ComponentId="{A003A771-2393-41AC-AEE2-28EB74644AE1}" Directory_="bin_Dir" Attributes="0" KeyPath="schemagen.exe"/>
+    <ROW Component="serialver.exe" ComponentId="{9DAF69A2-C878-485B-A445-B0BF6E17EBED}" Directory_="bin_Dir" Attributes="0" KeyPath="serialver.exe"/>
+    <ROW Component="servertool.exe" ComponentId="{AC847782-5B92-4E3C-A257-CA7BEDECE05E}" Directory_="bin_Dir" Attributes="0" KeyPath="servertool.exe"/>
+    <ROW Component="servertool.exe_1" ComponentId="{744CDFF3-0B10-4B21-97F2-2D7CB8238C9C}" Directory_="bin_1_Dir" Attributes="0" KeyPath="servertool.exe_1"/>
+    <ROW Component="splashscreen.dll" ComponentId="{43FDD25E-5CF9-45CE-8817-CA10A7888E31}" Directory_="bin_1_Dir" Attributes="0" KeyPath="splashscreen.dll"/>
+    <ROW Component="ssv.dll" ComponentId="{F1D29E94-6C84-4864-B9CA-53B9D922D91D}" Directory_="bin_1_Dir" Attributes="0" KeyPath="ssv.dll"/>
+    <ROW Component="ssvagent.exe" ComponentId="{DC9E4FD1-B2BE-4C6E-A6AF-20DB93494001}" Directory_="bin_1_Dir" Attributes="0" KeyPath="ssvagent.exe"/>
+    <ROW Component="sunec.dll" ComponentId="{F41EC2E7-725F-46FE-8D52-A7E07F31195D}" Directory_="bin_1_Dir" Attributes="0" KeyPath="sunec.dll"/>
+    <ROW Component="sunmscapi.dll" ComponentId="{EA57FB3A-6EF8-497E-8384-67E44534C002}" Directory_="bin_1_Dir" Attributes="0" KeyPath="sunmscapi.dll"/>
+    <ROW Component="t2k.dll" ComponentId="{4684640E-C778-4489-974B-6BA9F4705331}" Directory_="bin_1_Dir" Attributes="0" KeyPath="t2k.dll"/>
+    <ROW Component="tnameserv.exe" ComponentId="{E83E00C9-8EAB-4899-96B2-4C65018864FD}" Directory_="bin_Dir" Attributes="0" KeyPath="tnameserv.exe"/>
+    <ROW Component="tnameserv.exe_1" ComponentId="{02C6757C-3E7B-496D-88C3-2EB2F781A827}" Directory_="bin_1_Dir" Attributes="0" KeyPath="tnameserv.exe_1"/>
+    <ROW Component="unpack.dll" ComponentId="{4D462A0D-C7D6-4CC4-B6C0-27EBFF0762FB}" Directory_="bin_1_Dir" Attributes="0" KeyPath="unpack.dll"/>
+    <ROW Component="unpack200.exe" ComponentId="{1DCCBADE-7C9B-47FB-90C3-578671197B30}" Directory_="bin_Dir" Attributes="0" KeyPath="unpack200.exe"/>
+    <ROW Component="unpack200.exe_1" ComponentId="{37A8B90D-90E5-4E4E-9039-054A26D89431}" Directory_="bin_1_Dir" Attributes="0" KeyPath="unpack200.exe_1"/>
+    <ROW Component="verify.dll" ComponentId="{200D51C3-979A-4A2F-937E-CC437E36CA8E}" Directory_="bin_1_Dir" Attributes="0" KeyPath="verify.dll"/>
+    <ROW Component="w2k_lsa_auth.dll" ComponentId="{7FCF812D-FC14-4F03-82B0-CBF85F53723D}" Directory_="bin_1_Dir" Attributes="0" KeyPath="w2k_lsa_auth.dll"/>
+    <ROW Component="wsdetect.dll" ComponentId="{824DCD50-3082-446C-8A0C-31AE8FAA88F0}" Directory_="bin_1_Dir" Attributes="0" KeyPath="wsdetect.dll"/>
+    <ROW Component="wsgen.exe" ComponentId="{22A22003-8A7E-4D06-85B4-34E6A54C14A8}" Directory_="bin_Dir" Attributes="0" KeyPath="wsgen.exe"/>
+    <ROW Component="wsimport.exe" ComponentId="{5130DF9C-9FB6-4900-A69D-78FD8C31E2B0}" Directory_="bin_Dir" Attributes="0" KeyPath="wsimport.exe"/>
+    <ROW Component="xjc.exe" ComponentId="{5BF34AFB-E9A3-4F3B-ACF8-D7AE42299683}" Directory_="bin_Dir" Attributes="0" KeyPath="xjc.exe"/>
+    <ROW Component="zip.dll" ComponentId="{822C9A57-248E-4710-806B-19984A00506F}" Directory_="bin_1_Dir" Attributes="0" KeyPath="zip.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="JREBundle" Title="JRE Bundle" Description="This feature contains the JRE bundle." Display="3" Level="1" Directory_="APPDIR" Attributes="0" Builds="DefaultBuild"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="appletviewer.exe" Component_="appletviewer.exe" FileName="APPLET~1.EXE|appletviewer.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\appletviewer.exe" SelfReg="false"/>
+    <ROW File="extcheck.exe" Component_="extcheck.exe" FileName="extcheck.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\extcheck.exe" SelfReg="false"/>
+    <ROW File="idlj.exe" Component_="idlj.exe" FileName="idlj.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\idlj.exe" SelfReg="false"/>
+    <ROW File="jabswitch.exe" Component_="jabswitch.exe" FileName="JABSWI~1.EXE|jabswitch.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jabswitch.exe" SelfReg="false"/>
+    <ROW File="jar.exe" Component_="jar.exe" FileName="jar.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jar.exe" SelfReg="false"/>
+    <ROW File="jarsigner.exe" Component_="jarsigner.exe" FileName="JARSIG~1.EXE|jarsigner.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jarsigner.exe" SelfReg="false"/>
+    <ROW File="javarmi.exe" Component_="javarmi.exe" FileName="java-rmi.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\java-rmi.exe" SelfReg="false"/>
+    <ROW File="java.exe" Component_="java.exe" FileName="java.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\java.exe" SelfReg="false"/>
+    <ROW File="javac.exe" Component_="javac.exe" FileName="javac.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javac.exe" SelfReg="false"/>
+    <ROW File="javadoc.exe" Component_="javadoc.exe" FileName="javadoc.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javadoc.exe" SelfReg="false"/>
+    <ROW File="javafxpackager.exe" Component_="javafxpackager.exe" FileName="JAVAFX~1.EXE|javafxpackager.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javafxpackager.exe" SelfReg="false"/>
+    <ROW File="javah.exe" Component_="javah.exe" FileName="javah.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javah.exe" SelfReg="false"/>
+    <ROW File="javap.exe" Component_="javap.exe" FileName="javap.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javap.exe" SelfReg="false"/>
+    <ROW File="javapackager.exe" Component_="javapackager.exe" FileName="JAVAPA~1.EXE|javapackager.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javapackager.exe" SelfReg="false"/>
+    <ROW File="javaw.exe" Component_="javaw.exe" FileName="javaw.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javaw.exe" SelfReg="false"/>
+    <ROW File="javaws.exe" Component_="javaws.exe" FileName="javaws.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\javaws.exe" SelfReg="false"/>
+    <ROW File="jcmd.exe" Component_="jcmd.exe" FileName="jcmd.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jcmd.exe" SelfReg="false"/>
+    <ROW File="jconsole.exe" Component_="jconsole.exe" FileName="jconsole.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jconsole.exe" SelfReg="false"/>
+    <ROW File="jdb.exe" Component_="jdb.exe" FileName="jdb.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jdb.exe" SelfReg="false"/>
+    <ROW File="jdeps.exe" Component_="jdeps.exe" FileName="jdeps.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jdeps.exe" SelfReg="false"/>
+    <ROW File="jhat.exe" Component_="jhat.exe" FileName="jhat.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jhat.exe" SelfReg="false"/>
+    <ROW File="jinfo.exe" Component_="jinfo.exe" FileName="jinfo.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jinfo.exe" SelfReg="false"/>
+    <ROW File="jjs.exe" Component_="jjs.exe" FileName="jjs.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jjs.exe" SelfReg="false"/>
+    <ROW File="jli.dll" Component_="jli.dll" FileName="jli.dll" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jli.dll" SelfReg="false"/>
+    <ROW File="jmap.exe" Component_="jmap.exe" FileName="jmap.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jmap.exe" SelfReg="false"/>
+    <ROW File="jmc.exe" Component_="jmc.exe" FileName="jmc.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jmc.exe" SelfReg="false"/>
+    <ROW File="jmc.ini" Component_="jmc.ini" FileName="jmc.ini" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jmc.ini" SelfReg="false"/>
+    <ROW File="jps.exe" Component_="jps.exe" FileName="jps.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jps.exe" SelfReg="false"/>
+    <ROW File="jrunscript.exe" Component_="jrunscript.exe" FileName="JRUNSC~1.EXE|jrunscript.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jrunscript.exe" SelfReg="false"/>
+    <ROW File="jsadebugd.exe" Component_="jsadebugd.exe" FileName="JSADEB~1.EXE|jsadebugd.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jsadebugd.exe" SelfReg="false"/>
+    <ROW File="jstack.exe" Component_="jstack.exe" FileName="jstack.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jstack.exe" SelfReg="false"/>
+    <ROW File="jstat.exe" Component_="jstat.exe" FileName="jstat.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jstat.exe" SelfReg="false"/>
+    <ROW File="jstatd.exe" Component_="jstatd.exe" FileName="jstatd.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jstatd.exe" SelfReg="false"/>
+    <ROW File="jvisualvm.exe" Component_="jvisualvm.exe" FileName="JVISUA~1.EXE|jvisualvm.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\jvisualvm.exe" SelfReg="false"/>
+    <ROW File="keytool.exe" Component_="keytool.exe" FileName="keytool.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\keytool.exe" SelfReg="false"/>
+    <ROW File="kinit.exe" Component_="kinit.exe" FileName="kinit.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\kinit.exe" SelfReg="false"/>
+    <ROW File="klist.exe" Component_="klist.exe" FileName="klist.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\klist.exe" SelfReg="false"/>
+    <ROW File="ktab.exe" Component_="ktab.exe" FileName="ktab.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\ktab.exe" SelfReg="false"/>
+    <ROW File="msvcr100.dll" Component_="msvcr100.dll" FileName="msvcr100.dll" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\msvcr100.dll" SelfReg="false"/>
+    <ROW File="native2ascii.exe" Component_="native2ascii.exe" FileName="NATIVE~1.EXE|native2ascii.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\native2ascii.exe" SelfReg="false"/>
+    <ROW File="orbd.exe" Component_="orbd.exe" FileName="orbd.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\orbd.exe" SelfReg="false"/>
+    <ROW File="pack200.exe" Component_="pack200.exe" FileName="pack200.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\pack200.exe" SelfReg="false"/>
+    <ROW File="policytool.exe" Component_="policytool.exe" FileName="POLICY~1.EXE|policytool.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\policytool.exe" SelfReg="false"/>
+    <ROW File="rmic.exe" Component_="rmic.exe" FileName="rmic.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\rmic.exe" SelfReg="false"/>
+    <ROW File="rmid.exe" Component_="rmid.exe" FileName="rmid.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\rmid.exe" SelfReg="false"/>
+    <ROW File="rmiregistry.exe" Component_="rmiregistry.exe" FileName="RMIREG~1.EXE|rmiregistry.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\rmiregistry.exe" SelfReg="false"/>
+    <ROW File="schemagen.exe" Component_="schemagen.exe" FileName="SCHEMA~1.EXE|schemagen.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\schemagen.exe" SelfReg="false"/>
+    <ROW File="serialver.exe" Component_="serialver.exe" FileName="SERIAL~1.EXE|serialver.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\serialver.exe" SelfReg="false"/>
+    <ROW File="servertool.exe" Component_="servertool.exe" FileName="SERVER~1.EXE|servertool.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\servertool.exe" SelfReg="false"/>
+    <ROW File="tnameserv.exe" Component_="tnameserv.exe" FileName="TNAMES~1.EXE|tnameserv.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\tnameserv.exe" SelfReg="false"/>
+    <ROW File="unpack200.exe" Component_="unpack200.exe" FileName="UNPACK~1.EXE|unpack200.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\unpack200.exe" SelfReg="false"/>
+    <ROW File="wsgen.exe" Component_="wsgen.exe" FileName="wsgen.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\wsgen.exe" SelfReg="false"/>
+    <ROW File="wsimport.exe" Component_="wsimport.exe" FileName="wsimport.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\wsimport.exe" SelfReg="false"/>
+    <ROW File="xjc.exe" Component_="xjc.exe" FileName="xjc.exe" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\bin\xjc.exe" SelfReg="false"/>
+    <ROW File="builtjar.properties" Component_="builtjar.properties" FileName="BUILT-~1.PRO|built-jar.properties" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\built-jar.properties" SelfReg="false"/>
+    <ROW File="icons8_add_30px.png" Component_="icons8_add_30px.png" FileName="ICONS8~1.PNG|icons8_add_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_add_30px.png" SelfReg="false"/>
+    <ROW File="icons8_buy_50px.png" Component_="icons8_add_30px.png" FileName="ICONS8~2.PNG|icons8_buy_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_buy_50px.png" SelfReg="false"/>
+    <ROW File="icons8_Close_30px_1.png" Component_="icons8_add_30px.png" FileName="ICONS8~3.PNG|icons8_Close_30px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_Close_30px_1.png" SelfReg="false"/>
+    <ROW File="icons8_data_recovery_80px.png" Component_="icons8_add_30px.png" FileName="ICONS8~4.PNG|icons8_data_recovery_80px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_data_recovery_80px.png" SelfReg="false"/>
+    <ROW File="icons8_food_50px_1.png" Component_="icons8_add_30px.png" FileName="ICONS8~5.PNG|icons8_food_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_food_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_65px_1.png" Component_="icons8_add_30px.png" FileName="ICONS8~6.PNG|icons8_image_65px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_image_65px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_gallery_35px.png" Component_="icons8_add_30px.png" FileName="ICONS8~7.PNG|icons8_image_gallery_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_image_gallery_35px.png" SelfReg="false"/>
+    <ROW File="icons8_left_30px.png" Component_="icons8_add_30px.png" FileName="ICONS8~8.PNG|icons8_left_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_left_30px.png" SelfReg="false"/>
+    <ROW File="icons8_login_35px.png" Component_="icons8_add_30px.png" FileName="ICONS8~9.PNG|icons8_login_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_login_35px.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_1.png" Component_="icons8_add_30px.png" FileName="ICONS~10.PNG|icons8_log_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_log_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_2.png" Component_="icons8_add_30px.png" FileName="ICONS~11.PNG|icons8_log_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_log_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_management_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~12.PNG|icons8_management_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_management_50px.png" SelfReg="false"/>
+    <ROW File="icons8_money_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~13.PNG|icons8_money_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_money_50px.png" SelfReg="false"/>
+    <ROW File="icons8_NFT_Transaction_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~14.PNG|icons8_NFT_Transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_NFT_Transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_password_35px.png" Component_="icons8_add_30px.png" FileName="ICONS~15.PNG|icons8_password_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_password_35px.png" SelfReg="false"/>
+    <ROW File="icons8_payment_history_50px_2.png" Component_="icons8_add_30px.png" FileName="ICONS~16.PNG|icons8_payment_history_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_payment_history_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_plus_math_28px.png" Component_="icons8_add_30px.png" FileName="ICONS~17.PNG|icons8_plus_math_28px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_plus_math_28px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~18.PNG|icons8_report_file_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_report_file_50px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px_1.png" Component_="icons8_add_30px.png" FileName="ICONS~19.PNG|icons8_report_file_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_report_file_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_search_20px.png" Component_="icons8_add_30px.png" FileName="ICONS~20.PNG|icons8_search_20px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_search_20px.png" SelfReg="false"/>
+    <ROW File="icons8_send_email_35px_1.png" Component_="icons8_add_30px.png" FileName="ICONS~21.PNG|icons8_send_email_35px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_send_email_35px_1.png" SelfReg="false"/>
+    <ROW File="icons8_start_menu_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~22.PNG|icons8_start_menu_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_start_menu_50px.png" SelfReg="false"/>
+    <ROW File="icons8_transaction_50px.png" Component_="icons8_add_30px.png" FileName="ICONS~23.PNG|icons8_transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_update_28px_1.png" Component_="icons8_add_30px.png" FileName="ICONS~24.PNG|icons8_update_28px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_update_28px_1.png" SelfReg="false"/>
+    <ROW File="icons8_user_50px_2.png" Component_="icons8_add_30px.png" FileName="ICONS~25.PNG|icons8_user_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\icons8_user_50px_2.png" SelfReg="false"/>
+    <ROW File="LOGOremovebgpreview.png" Component_="icons8_add_30px.png" FileName="LOGO-R~1.PNG|LOGO-removebg-preview.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\LOGO-removebg-preview.png" SelfReg="false"/>
+    <ROW File="restoraan.jpg" Component_="icons8_add_30px.png" FileName="RESTOR~1.JPG|restoraan.jpg" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\gambar\restoraan.jpg" SelfReg="false"/>
+    <ROW File="Admin1.class" Component_="Admin1.class" FileName="ADMIN$~1.CLA|Admin$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Admin$1.class" SelfReg="false"/>
+    <ROW File="Admin2.class" Component_="Admin1.class" FileName="ADMIN$~2.CLA|Admin$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Admin$2.class" SelfReg="false"/>
+    <ROW File="Admin3.class" Component_="Admin1.class" FileName="ADMIN$~3.CLA|Admin$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Admin$3.class" SelfReg="false"/>
+    <ROW File="Admin4.class" Component_="Admin1.class" FileName="ADMIN$~4.CLA|Admin$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Admin$4.class" SelfReg="false"/>
+    <ROW File="Admin.class" Component_="Admin1.class" FileName="ADMIN~1.CLA|Admin.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Admin.class" SelfReg="false"/>
+    <ROW File="Bayar1.class" Component_="Admin1.class" FileName="BAYAR$~1.CLA|Bayar$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$1.class" SelfReg="false"/>
+    <ROW File="Bayar10.class" Component_="Admin1.class" FileName="BAYAR$~2.CLA|Bayar$10.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$10.class" SelfReg="false"/>
+    <ROW File="Bayar2.class" Component_="Admin1.class" FileName="BAYAR$~3.CLA|Bayar$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$2.class" SelfReg="false"/>
+    <ROW File="Bayar3.class" Component_="Admin1.class" FileName="BAYAR$~4.CLA|Bayar$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$3.class" SelfReg="false"/>
+    <ROW File="Bayar4.class" Component_="Admin1.class" FileName="BAYAR$~5.CLA|Bayar$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$4.class" SelfReg="false"/>
+    <ROW File="Bayar5.class" Component_="Admin1.class" FileName="BAYAR$~6.CLA|Bayar$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$5.class" SelfReg="false"/>
+    <ROW File="Bayar6.class" Component_="Admin1.class" FileName="BAYAR$~7.CLA|Bayar$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$6.class" SelfReg="false"/>
+    <ROW File="Bayar7.class" Component_="Admin1.class" FileName="BAYAR$~8.CLA|Bayar$7.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$7.class" SelfReg="false"/>
+    <ROW File="Bayar8.class" Component_="Admin1.class" FileName="BAYAR$~9.CLA|Bayar$8.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$8.class" SelfReg="false"/>
+    <ROW File="Bayar9.class" Component_="Admin1.class" FileName="BAYAR~10.CLA|Bayar$9.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar$9.class" SelfReg="false"/>
+    <ROW File="Bayar.class" Component_="Admin1.class" FileName="BAYAR~1.CLA|Bayar.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Bayar.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksi1.class" Component_="Admin1.class" FileName="CATATA~1.CLA|CatatanTransaksi$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksi$1.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksi2.class" Component_="Admin1.class" FileName="CATATA~2.CLA|CatatanTransaksi$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksi$2.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksi3.class" Component_="Admin1.class" FileName="CATATA~3.CLA|CatatanTransaksi$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksi$3.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksi.class" Component_="Admin1.class" FileName="CATATA~4.CLA|CatatanTransaksi.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksi.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager1.class" Component_="Admin1.class" FileName="CATATA~5.CLA|CatatanTransaksiManager$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksiManager$1.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager2.class" Component_="Admin1.class" FileName="CATATA~6.CLA|CatatanTransaksiManager$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksiManager$2.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager3.class" Component_="Admin1.class" FileName="CATATA~7.CLA|CatatanTransaksiManager$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksiManager$3.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager4.class" Component_="Admin1.class" FileName="CATATA~8.CLA|CatatanTransaksiManager$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksiManager$4.class" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager.class" Component_="Admin1.class" FileName="CATATA~9.CLA|CatatanTransaksiManager.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\CatatanTransaksiManager.class" SelfReg="false"/>
+    <ROW File="FormLogin1.class" Component_="Admin1.class" FileName="FORMLO~1.CLA|FormLogin$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\FormLogin$1.class" SelfReg="false"/>
+    <ROW File="FormLogin2.class" Component_="Admin1.class" FileName="FORMLO~2.CLA|FormLogin$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\FormLogin$2.class" SelfReg="false"/>
+    <ROW File="FormLogin.class" Component_="Admin1.class" FileName="FORMLO~3.CLA|FormLogin.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\FormLogin.class" SelfReg="false"/>
+    <ROW File="Kasir1.class" Component_="Admin1.class" FileName="KASIR$~1.CLA|Kasir$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir$1.class" SelfReg="false"/>
+    <ROW File="Kasir2.class" Component_="Admin1.class" FileName="KASIR$~2.CLA|Kasir$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir$2.class" SelfReg="false"/>
+    <ROW File="Kasir3.class" Component_="Admin1.class" FileName="KASIR$~3.CLA|Kasir$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir$3.class" SelfReg="false"/>
+    <ROW File="Kasir4.class" Component_="Admin1.class" FileName="KASIR$~4.CLA|Kasir$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir$4.class" SelfReg="false"/>
+    <ROW File="Kasir5.class" Component_="Admin1.class" FileName="KASIR$~5.CLA|Kasir$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir$5.class" SelfReg="false"/>
+    <ROW File="Kasir.class" Component_="Admin1.class" FileName="KASIR~1.CLA|Kasir.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Kasir.class" SelfReg="false"/>
+    <ROW File="kasircafe_ani.class" Component_="Admin1.class" FileName="KASIRC~1.CLA|kasircafe_ani.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\kasircafe_ani.class" SelfReg="false"/>
+    <ROW File="Laporan1.class" Component_="Admin1.class" FileName="LAPORA~1.CLA|Laporan$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$1.class" SelfReg="false"/>
+    <ROW File="Laporan2.class" Component_="Admin1.class" FileName="LAPORA~2.CLA|Laporan$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$2.class" SelfReg="false"/>
+    <ROW File="Laporan3.class" Component_="Admin1.class" FileName="LAPORA~3.CLA|Laporan$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$3.class" SelfReg="false"/>
+    <ROW File="Laporan4.class" Component_="Admin1.class" FileName="LAPORA~4.CLA|Laporan$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$4.class" SelfReg="false"/>
+    <ROW File="Laporan5.class" Component_="Admin1.class" FileName="LAPORA~5.CLA|Laporan$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$5.class" SelfReg="false"/>
+    <ROW File="Laporan6.class" Component_="Admin1.class" FileName="LAPORA~6.CLA|Laporan$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan$6.class" SelfReg="false"/>
+    <ROW File="Laporan.class" Component_="Admin1.class" FileName="LAPORA~7.CLA|Laporan.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Laporan.class" SelfReg="false"/>
+    <ROW File="log_admin1.class" Component_="Admin1.class" FileName="LOG_AD~1.CLA|log_admin$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_admin$1.class" SelfReg="false"/>
+    <ROW File="log_admin2.class" Component_="Admin1.class" FileName="LOG_AD~2.CLA|log_admin$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_admin$2.class" SelfReg="false"/>
+    <ROW File="log_admin3.class" Component_="Admin1.class" FileName="LOG_AD~3.CLA|log_admin$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_admin$3.class" SelfReg="false"/>
+    <ROW File="log_admin.class" Component_="Admin1.class" FileName="LOG_AD~4.CLA|log_admin.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_admin.class" SelfReg="false"/>
+    <ROW File="log_menu1.class" Component_="Admin1.class" FileName="LOG_ME~1.CLA|log_menu$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_menu$1.class" SelfReg="false"/>
+    <ROW File="log_menu2.class" Component_="Admin1.class" FileName="LOG_ME~2.CLA|log_menu$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_menu$2.class" SelfReg="false"/>
+    <ROW File="log_menu3.class" Component_="Admin1.class" FileName="LOG_ME~3.CLA|log_menu$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_menu$3.class" SelfReg="false"/>
+    <ROW File="log_menu4.class" Component_="Admin1.class" FileName="LOG_ME~4.CLA|log_menu$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_menu$4.class" SelfReg="false"/>
+    <ROW File="log_menu.class" Component_="Admin1.class" FileName="LOG_ME~5.CLA|log_menu.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\log_menu.class" SelfReg="false"/>
+    <ROW File="Manager1.class" Component_="Admin1.class" FileName="MANAGE~1.CLA|Manager$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$1.class" SelfReg="false"/>
+    <ROW File="Manager2.class" Component_="Admin1.class" FileName="MANAGE~2.CLA|Manager$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$2.class" SelfReg="false"/>
+    <ROW File="Manager3.class" Component_="Admin1.class" FileName="MANAGE~3.CLA|Manager$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$3.class" SelfReg="false"/>
+    <ROW File="Manager4.class" Component_="Admin1.class" FileName="MANAGE~4.CLA|Manager$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$4.class" SelfReg="false"/>
+    <ROW File="Manager5.class" Component_="Admin1.class" FileName="MANAGE~5.CLA|Manager$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$5.class" SelfReg="false"/>
+    <ROW File="Manager6.class" Component_="Admin1.class" FileName="MANAGE~6.CLA|Manager$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager$6.class" SelfReg="false"/>
+    <ROW File="Manager.class" Component_="Admin1.class" FileName="MANAGE~7.CLA|Manager.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Manager.class" SelfReg="false"/>
+    <ROW File="Menu1.class" Component_="Admin1.class" FileName="MENU$1~1.CLA|Menu$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$1.class" SelfReg="false"/>
+    <ROW File="Menu2.class" Component_="Admin1.class" FileName="MENU$2~1.CLA|Menu$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$2.class" SelfReg="false"/>
+    <ROW File="Menu3.class" Component_="Admin1.class" FileName="MENU$3~1.CLA|Menu$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$3.class" SelfReg="false"/>
+    <ROW File="Menu4.class" Component_="Admin1.class" FileName="MENU$4~1.CLA|Menu$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$4.class" SelfReg="false"/>
+    <ROW File="Menu5.class" Component_="Admin1.class" FileName="MENU$5~1.CLA|Menu$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$5.class" SelfReg="false"/>
+    <ROW File="Menu6.class" Component_="Admin1.class" FileName="MENU$6~1.CLA|Menu$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$6.class" SelfReg="false"/>
+    <ROW File="Menu7.class" Component_="Admin1.class" FileName="MENU$7~1.CLA|Menu$7.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$7.class" SelfReg="false"/>
+    <ROW File="Menu8.class" Component_="Admin1.class" FileName="MENU$8~1.CLA|Menu$8.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$8.class" SelfReg="false"/>
+    <ROW File="Menu9.class" Component_="Admin1.class" FileName="MENU$9~1.CLA|Menu$9.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu$9.class" SelfReg="false"/>
+    <ROW File="Menu.class" Component_="Admin1.class" FileName="MENU~1.CLA|Menu.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Menu.class" SelfReg="false"/>
+    <ROW File="Order1.class" Component_="Admin1.class" FileName="ORDER$~1.CLA|Order$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$1.class" SelfReg="false"/>
+    <ROW File="Order2.class" Component_="Admin1.class" FileName="ORDER$~2.CLA|Order$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$2.class" SelfReg="false"/>
+    <ROW File="Order3.class" Component_="Admin1.class" FileName="ORDER$~3.CLA|Order$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$3.class" SelfReg="false"/>
+    <ROW File="Order4.class" Component_="Admin1.class" FileName="ORDER$~4.CLA|Order$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$4.class" SelfReg="false"/>
+    <ROW File="Order5.class" Component_="Admin1.class" FileName="ORDER$~5.CLA|Order$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$5.class" SelfReg="false"/>
+    <ROW File="Order6.class" Component_="Admin1.class" FileName="ORDER$~6.CLA|Order$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$6.class" SelfReg="false"/>
+    <ROW File="Order7.class" Component_="Admin1.class" FileName="ORDER$~7.CLA|Order$7.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order$7.class" SelfReg="false"/>
+    <ROW File="Order.class" Component_="Admin1.class" FileName="ORDER~1.CLA|Order.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\Order.class" SelfReg="false"/>
+    <ROW File="User1.class" Component_="Admin1.class" FileName="USER$1~1.CLA|User$1.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$1.class" SelfReg="false"/>
+    <ROW File="User2.class" Component_="Admin1.class" FileName="USER$2~1.CLA|User$2.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$2.class" SelfReg="false"/>
+    <ROW File="User3.class" Component_="Admin1.class" FileName="USER$3~1.CLA|User$3.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$3.class" SelfReg="false"/>
+    <ROW File="User4.class" Component_="Admin1.class" FileName="USER$4~1.CLA|User$4.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$4.class" SelfReg="false"/>
+    <ROW File="User5.class" Component_="Admin1.class" FileName="USER$5~1.CLA|User$5.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$5.class" SelfReg="false"/>
+    <ROW File="User6.class" Component_="Admin1.class" FileName="USER$6~1.CLA|User$6.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$6.class" SelfReg="false"/>
+    <ROW File="User7.class" Component_="Admin1.class" FileName="USER$7~1.CLA|User$7.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$7.class" SelfReg="false"/>
+    <ROW File="User8.class" Component_="Admin1.class" FileName="USER$8~1.CLA|User$8.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$8.class" SelfReg="false"/>
+    <ROW File="User9.class" Component_="Admin1.class" FileName="USER$9~1.CLA|User$9.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User$9.class" SelfReg="false"/>
+    <ROW File="User.class" Component_="Admin1.class" FileName="USER~1.CLA|User.class" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build\classes\kasircafe_ani\User.class" SelfReg="false"/>
+    <ROW File="build.xml" Component_="build.xml" FileName="build.xml" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\build.xml" SelfReg="false"/>
+    <ROW File="kasircafe_ani_1.jar" Component_="kasircafe_ani_1.jar" FileName="KASIRC~1.JAR|kasircafe_ani_1.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\kasircafe_ani_1.jar" SelfReg="false"/>
+    <ROW File="hamcrestcore1.3.jar" Component_="hamcrestcore1.3.jar" FileName="HAMCRE~1.JAR|hamcrest-core-1.3.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\hamcrest-core-1.3.jar" SelfReg="false"/>
+    <ROW File="jcalendar0.8.1.jar" Component_="hamcrestcore1.3.jar" FileName="JCALEN~1.JAR|jcalendar-0.8.1.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jcalendar-0.8.1.jar" SelfReg="false"/>
+    <ROW File="jcommon1.0.23.jar" Component_="hamcrestcore1.3.jar" FileName="JCOMMO~1.JAR|jcommon-1.0.23.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jcommon-1.0.23.jar" SelfReg="false"/>
+    <ROW File="jfreechart1.0.19experimental.jar" Component_="hamcrestcore1.3.jar" FileName="JFREEC~1.JAR|jfreechart-1.0.19-experimental.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jfreechart-1.0.19-experimental.jar" SelfReg="false"/>
+    <ROW File="jfreechart1.0.19swt.jar" Component_="hamcrestcore1.3.jar" FileName="JFREEC~2.JAR|jfreechart-1.0.19-swt.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jfreechart-1.0.19-swt.jar" SelfReg="false"/>
+    <ROW File="jfreechart1.0.19.jar" Component_="hamcrestcore1.3.jar" FileName="JFREEC~3.JAR|jfreechart-1.0.19.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jfreechart-1.0.19.jar" SelfReg="false"/>
+    <ROW File="jfreesvg2.0.jar" Component_="hamcrestcore1.3.jar" FileName="JFREES~1.JAR|jfreesvg-2.0.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\jfreesvg-2.0.jar" SelfReg="false"/>
+    <ROW File="junit4.11.jar" Component_="hamcrestcore1.3.jar" FileName="JUNIT-~1.JAR|junit-4.11.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\junit-4.11.jar" SelfReg="false"/>
+    <ROW File="mysqlconnectorjava5.1.23bin.jar" Component_="hamcrestcore1.3.jar" FileName="MYSQL-~1.JAR|mysql-connector-java-5.1.23-bin.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\mysql-connector-java-5.1.23-bin.jar" SelfReg="false"/>
+    <ROW File="orsoncharts1.4evalnofx.jar" Component_="hamcrestcore1.3.jar" FileName="ORSONC~1.JAR|orsoncharts-1.4-eval-nofx.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\orsoncharts-1.4-eval-nofx.jar" SelfReg="false"/>
+    <ROW File="orsonpdf1.6eval.jar" Component_="hamcrestcore1.3.jar" FileName="ORSONP~1.JAR|orsonpdf-1.6-eval.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\orsonpdf-1.6-eval.jar" SelfReg="false"/>
+    <ROW File="servlet.jar" Component_="hamcrestcore1.3.jar" FileName="servlet.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\servlet.jar" SelfReg="false"/>
+    <ROW File="swtgraphics2d.jar" Component_="hamcrestcore1.3.jar" FileName="SWTGRA~1.JAR|swtgraphics2d.jar" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\lib\swtgraphics2d.jar" SelfReg="false"/>
+    <ROW File="README.TXT" Component_="kasircafe_ani_1.jar" FileName="README.TXT" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\README.TXT" SelfReg="false"/>
+    <ROW File="icons8_add_30px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~1.PNG|icons8_add_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_add_30px.png" SelfReg="false"/>
+    <ROW File="icons8_buy_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~2.PNG|icons8_buy_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_buy_50px.png" SelfReg="false"/>
+    <ROW File="icons8_Close_30px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~3.PNG|icons8_Close_30px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_Close_30px_1.png" SelfReg="false"/>
+    <ROW File="icons8_data_recovery_80px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~4.PNG|icons8_data_recovery_80px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_data_recovery_80px.png" SelfReg="false"/>
+    <ROW File="icons8_food_50px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~5.PNG|icons8_food_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_food_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_65px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~6.PNG|icons8_image_65px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_image_65px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_gallery_35px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~7.PNG|icons8_image_gallery_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_image_gallery_35px.png" SelfReg="false"/>
+    <ROW File="icons8_left_30px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~8.PNG|icons8_left_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_left_30px.png" SelfReg="false"/>
+    <ROW File="icons8_login_35px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS8~9.PNG|icons8_login_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_login_35px.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~10.PNG|icons8_log_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_log_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_2.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~11.PNG|icons8_log_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_log_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_management_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~12.PNG|icons8_management_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_management_50px.png" SelfReg="false"/>
+    <ROW File="icons8_money_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~13.PNG|icons8_money_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_money_50px.png" SelfReg="false"/>
+    <ROW File="icons8_NFT_Transaction_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~14.PNG|icons8_NFT_Transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_NFT_Transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_password_35px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~15.PNG|icons8_password_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_password_35px.png" SelfReg="false"/>
+    <ROW File="icons8_payment_history_50px_2.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~16.PNG|icons8_payment_history_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_payment_history_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_plus_math_28px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~17.PNG|icons8_plus_math_28px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_plus_math_28px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~18.PNG|icons8_report_file_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_report_file_50px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~19.PNG|icons8_report_file_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_report_file_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_search_20px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~20.PNG|icons8_search_20px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_search_20px.png" SelfReg="false"/>
+    <ROW File="icons8_send_email_35px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~21.PNG|icons8_send_email_35px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_send_email_35px_1.png" SelfReg="false"/>
+    <ROW File="icons8_start_menu_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~22.PNG|icons8_start_menu_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_start_menu_50px.png" SelfReg="false"/>
+    <ROW File="icons8_transaction_50px.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~23.PNG|icons8_transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_update_28px_1.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~24.PNG|icons8_update_28px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_update_28px_1.png" SelfReg="false"/>
+    <ROW File="icons8_user_50px_2.png_1" Component_="icons8_add_30px.png_1" FileName="ICONS~25.PNG|icons8_user_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\icons8_user_50px_2.png" SelfReg="false"/>
+    <ROW File="LOGOremovebgpreview.png_1" Component_="icons8_add_30px.png_1" FileName="LOGO-R~1.PNG|LOGO-removebg-preview.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\LOGO-removebg-preview.png" SelfReg="false"/>
+    <ROW File="restoraan.jpg_1" Component_="icons8_add_30px.png_1" FileName="RESTOR~1.JPG|restoraan.jpg" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\gambar\restoraan.jpg" SelfReg="false"/>
+    <ROW File="Admin.form" Component_="Admin.form" FileName="ADMIN~1.FOR|Admin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Admin.form" SelfReg="false"/>
+    <ROW File="Admin.java" Component_="Admin.form" FileName="ADMIN~1.JAV|Admin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Admin.java" SelfReg="false"/>
+    <ROW File="Bayar.form" Component_="Admin.form" FileName="BAYAR~1.FOR|Bayar.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Bayar.form" SelfReg="false"/>
+    <ROW File="Bayar.java" Component_="Admin.form" FileName="BAYAR~1.JAV|Bayar.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Bayar.java" SelfReg="false"/>
+    <ROW File="CatatanTransaksi.form" Component_="Admin.form" FileName="CATATA~1.FOR|CatatanTransaksi.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\CatatanTransaksi.form" SelfReg="false"/>
+    <ROW File="CatatanTransaksi.java" Component_="Admin.form" FileName="CATATA~1.JAV|CatatanTransaksi.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\CatatanTransaksi.java" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager.form" Component_="Admin.form" FileName="CATATA~2.FOR|CatatanTransaksiManager.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\CatatanTransaksiManager.form" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager.java" Component_="Admin.form" FileName="CATATA~2.JAV|CatatanTransaksiManager.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\CatatanTransaksiManager.java" SelfReg="false"/>
+    <ROW File="FormLogin.form" Component_="Admin.form" FileName="FORMLO~1.FOR|FormLogin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\FormLogin.form" SelfReg="false"/>
+    <ROW File="FormLogin.java" Component_="Admin.form" FileName="FORMLO~1.JAV|FormLogin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\FormLogin.java" SelfReg="false"/>
+    <ROW File="Kasir.form" Component_="Admin.form" FileName="KASIR~1.FOR|Kasir.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Kasir.form" SelfReg="false"/>
+    <ROW File="Kasir.java" Component_="Admin.form" FileName="KASIR~1.JAV|Kasir.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Kasir.java" SelfReg="false"/>
+    <ROW File="kasircafe_ani.java" Component_="Admin.form" FileName="KASIRC~1.JAV|kasircafe_ani.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\kasircafe_ani.java" SelfReg="false"/>
+    <ROW File="Laporan.form" Component_="Admin.form" FileName="LAPORA~1.FOR|Laporan.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Laporan.form" SelfReg="false"/>
+    <ROW File="Laporan.java" Component_="Admin.form" FileName="LAPORA~1.JAV|Laporan.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Laporan.java" SelfReg="false"/>
+    <ROW File="log_admin.form" Component_="Admin.form" FileName="LOG_AD~1.FOR|log_admin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\log_admin.form" SelfReg="false"/>
+    <ROW File="log_admin.java" Component_="Admin.form" FileName="LOG_AD~1.JAV|log_admin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\log_admin.java" SelfReg="false"/>
+    <ROW File="log_menu.form" Component_="Admin.form" FileName="LOG_ME~1.FOR|log_menu.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\log_menu.form" SelfReg="false"/>
+    <ROW File="log_menu.java" Component_="Admin.form" FileName="LOG_ME~1.JAV|log_menu.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\log_menu.java" SelfReg="false"/>
+    <ROW File="Manager.form" Component_="Admin.form" FileName="MANAGE~1.FOR|Manager.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Manager.form" SelfReg="false"/>
+    <ROW File="Manager.java" Component_="Admin.form" FileName="MANAGE~1.JAV|Manager.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Manager.java" SelfReg="false"/>
+    <ROW File="Menu.form" Component_="Admin.form" FileName="MENU~1.FOR|Menu.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Menu.form" SelfReg="false"/>
+    <ROW File="Menu.java" Component_="Admin.form" FileName="MENU~1.JAV|Menu.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Menu.java" SelfReg="false"/>
+    <ROW File="Order.form" Component_="Admin.form" FileName="ORDER~1.FOR|Order.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Order.form" SelfReg="false"/>
+    <ROW File="Order.java" Component_="Admin.form" FileName="ORDER~1.JAV|Order.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\Order.java" SelfReg="false"/>
+    <ROW File="User.form" Component_="Admin.form" FileName="USER~1.FOR|User.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\User.form" SelfReg="false"/>
+    <ROW File="User.java" Component_="Admin.form" FileName="USER~1.JAV|User.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\src\kasircafe_ani\User.java" SelfReg="false"/>
+    <ROW File="manifest.mf" Component_="build.xml" FileName="manifest.mf" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\manifest.mf" SelfReg="false"/>
+    <ROW File="buildimpl.xml" Component_="buildimpl.xml" FileName="BUILD-~1.XML|build-impl.xml" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\build-impl.xml" SelfReg="false"/>
+    <ROW File="genfiles.properties" Component_="buildimpl.xml" FileName="GENFIL~1.PRO|genfiles.properties" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\genfiles.properties" SelfReg="false"/>
+    <ROW File="private.properties" Component_="private.properties" FileName="PRIVAT~1.PRO|private.properties" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\private\private.properties" SelfReg="false"/>
+    <ROW File="private.xml" Component_="private.properties" FileName="private.xml" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\private\private.xml" SelfReg="false"/>
+    <ROW File="project.properties" Component_="buildimpl.xml" FileName="PROJEC~1.PRO|project.properties" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\project.properties" SelfReg="false"/>
+    <ROW File="project.xml" Component_="buildimpl.xml" FileName="project.xml" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\nbproject\project.xml" SelfReg="false"/>
+    <ROW File="icons8_add_30px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~1.PNG|icons8_add_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_add_30px.png" SelfReg="false"/>
+    <ROW File="icons8_buy_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~2.PNG|icons8_buy_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_buy_50px.png" SelfReg="false"/>
+    <ROW File="icons8_Close_30px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~3.PNG|icons8_Close_30px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_Close_30px_1.png" SelfReg="false"/>
+    <ROW File="icons8_data_recovery_80px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~4.PNG|icons8_data_recovery_80px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_data_recovery_80px.png" SelfReg="false"/>
+    <ROW File="icons8_food_50px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~5.PNG|icons8_food_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_food_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_65px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~6.PNG|icons8_image_65px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_image_65px_1.png" SelfReg="false"/>
+    <ROW File="icons8_image_gallery_35px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~7.PNG|icons8_image_gallery_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_image_gallery_35px.png" SelfReg="false"/>
+    <ROW File="icons8_left_30px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~8.PNG|icons8_left_30px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_left_30px.png" SelfReg="false"/>
+    <ROW File="icons8_login_35px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS8~9.PNG|icons8_login_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_login_35px.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~10.PNG|icons8_log_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_log_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_log_50px_2.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~11.PNG|icons8_log_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_log_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_management_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~12.PNG|icons8_management_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_management_50px.png" SelfReg="false"/>
+    <ROW File="icons8_money_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~13.PNG|icons8_money_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_money_50px.png" SelfReg="false"/>
+    <ROW File="icons8_NFT_Transaction_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~14.PNG|icons8_NFT_Transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_NFT_Transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_password_35px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~15.PNG|icons8_password_35px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_password_35px.png" SelfReg="false"/>
+    <ROW File="icons8_payment_history_50px_2.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~16.PNG|icons8_payment_history_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_payment_history_50px_2.png" SelfReg="false"/>
+    <ROW File="icons8_plus_math_28px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~17.PNG|icons8_plus_math_28px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_plus_math_28px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~18.PNG|icons8_report_file_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_report_file_50px.png" SelfReg="false"/>
+    <ROW File="icons8_report_file_50px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~19.PNG|icons8_report_file_50px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_report_file_50px_1.png" SelfReg="false"/>
+    <ROW File="icons8_search_20px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~20.PNG|icons8_search_20px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_search_20px.png" SelfReg="false"/>
+    <ROW File="icons8_send_email_35px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~21.PNG|icons8_send_email_35px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_send_email_35px_1.png" SelfReg="false"/>
+    <ROW File="icons8_start_menu_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~22.PNG|icons8_start_menu_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_start_menu_50px.png" SelfReg="false"/>
+    <ROW File="icons8_transaction_50px.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~23.PNG|icons8_transaction_50px.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_transaction_50px.png" SelfReg="false"/>
+    <ROW File="icons8_update_28px_1.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~24.PNG|icons8_update_28px_1.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_update_28px_1.png" SelfReg="false"/>
+    <ROW File="icons8_user_50px_2.png_2" Component_="icons8_add_30px.png_2" FileName="ICONS~25.PNG|icons8_user_50px_2.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\icons8_user_50px_2.png" SelfReg="false"/>
+    <ROW File="LOGOremovebgpreview.png_2" Component_="icons8_add_30px.png_2" FileName="LOGO-R~1.PNG|LOGO-removebg-preview.png" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\LOGO-removebg-preview.png" SelfReg="false"/>
+    <ROW File="restoraan.jpg_2" Component_="icons8_add_30px.png_2" FileName="RESTOR~1.JPG|restoraan.jpg" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\gambar\restoraan.jpg" SelfReg="false"/>
+    <ROW File="Admin.form_1" Component_="Admin.form_1" FileName="ADMIN~1.FOR|Admin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Admin.form" SelfReg="false"/>
+    <ROW File="Admin.java_1" Component_="Admin.form_1" FileName="ADMIN~1.JAV|Admin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Admin.java" SelfReg="false"/>
+    <ROW File="Bayar.form_1" Component_="Admin.form_1" FileName="BAYAR~1.FOR|Bayar.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Bayar.form" SelfReg="false"/>
+    <ROW File="Bayar.java_1" Component_="Admin.form_1" FileName="BAYAR~1.JAV|Bayar.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Bayar.java" SelfReg="false"/>
+    <ROW File="CatatanTransaksi.form_1" Component_="Admin.form_1" FileName="CATATA~1.FOR|CatatanTransaksi.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\CatatanTransaksi.form" SelfReg="false"/>
+    <ROW File="CatatanTransaksi.java_1" Component_="Admin.form_1" FileName="CATATA~1.JAV|CatatanTransaksi.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\CatatanTransaksi.java" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager.form_1" Component_="Admin.form_1" FileName="CATATA~2.FOR|CatatanTransaksiManager.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\CatatanTransaksiManager.form" SelfReg="false"/>
+    <ROW File="CatatanTransaksiManager.java_1" Component_="Admin.form_1" FileName="CATATA~2.JAV|CatatanTransaksiManager.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\CatatanTransaksiManager.java" SelfReg="false"/>
+    <ROW File="FormLogin.form_1" Component_="Admin.form_1" FileName="FORMLO~1.FOR|FormLogin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\FormLogin.form" SelfReg="false"/>
+    <ROW File="FormLogin.java_1" Component_="Admin.form_1" FileName="FORMLO~1.JAV|FormLogin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\FormLogin.java" SelfReg="false"/>
+    <ROW File="Kasir.form_1" Component_="Admin.form_1" FileName="KASIR~1.FOR|Kasir.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Kasir.form" SelfReg="false"/>
+    <ROW File="Kasir.java_1" Component_="Admin.form_1" FileName="KASIR~1.JAV|Kasir.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Kasir.java" SelfReg="false"/>
+    <ROW File="kasircafe_ani.java_1" Component_="Admin.form_1" FileName="KASIRC~1.JAV|kasircafe_ani.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\kasircafe_ani.java" SelfReg="false"/>
+    <ROW File="Laporan.form_1" Component_="Admin.form_1" FileName="LAPORA~1.FOR|Laporan.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Laporan.form" SelfReg="false"/>
+    <ROW File="Laporan.java_1" Component_="Admin.form_1" FileName="LAPORA~1.JAV|Laporan.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Laporan.java" SelfReg="false"/>
+    <ROW File="log_admin.form_1" Component_="Admin.form_1" FileName="LOG_AD~1.FOR|log_admin.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\log_admin.form" SelfReg="false"/>
+    <ROW File="log_admin.java_1" Component_="Admin.form_1" FileName="LOG_AD~1.JAV|log_admin.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\log_admin.java" SelfReg="false"/>
+    <ROW File="log_menu.form_1" Component_="Admin.form_1" FileName="LOG_ME~1.FOR|log_menu.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\log_menu.form" SelfReg="false"/>
+    <ROW File="log_menu.java_1" Component_="Admin.form_1" FileName="LOG_ME~1.JAV|log_menu.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\log_menu.java" SelfReg="false"/>
+    <ROW File="Manager.form_1" Component_="Admin.form_1" FileName="MANAGE~1.FOR|Manager.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Manager.form" SelfReg="false"/>
+    <ROW File="Manager.java_1" Component_="Admin.form_1" FileName="MANAGE~1.JAV|Manager.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Manager.java" SelfReg="false"/>
+    <ROW File="Menu.form_1" Component_="Admin.form_1" FileName="MENU~1.FOR|Menu.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Menu.form" SelfReg="false"/>
+    <ROW File="Menu.java_1" Component_="Admin.form_1" FileName="MENU~1.JAV|Menu.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Menu.java" SelfReg="false"/>
+    <ROW File="Order.form_1" Component_="Admin.form_1" FileName="ORDER~1.FOR|Order.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Order.form" SelfReg="false"/>
+    <ROW File="Order.java_1" Component_="Admin.form_1" FileName="ORDER~1.JAV|Order.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\Order.java" SelfReg="false"/>
+    <ROW File="User.form_1" Component_="Admin.form_1" FileName="USER~1.FOR|User.form" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\User.form" SelfReg="false"/>
+    <ROW File="User.java_1" Component_="Admin.form_1" FileName="USER~1.JAV|User.java" Attributes="0" SourcePath="..\..\..\NetBeansProjects\kasircafe_ani_1\src\kasircafe_ani\User.java" SelfReg="false"/>
+    <ROW File="PastiWaregRestaurant.exe" Component_="PastiWaregRestaurant.exe" FileName="PASTIW~1.EXE|Pasti Wareg Restaurant.exe" Attributes="0" SourcePath="&lt;AI_STUBS_64&gt;aijclw.exe" SelfReg="false"/>
+    <ROW File="attach.dll" Component_="attach.dll" FileName="attach.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\attach.dll" SelfReg="false"/>
+    <ROW File="awt.dll" Component_="awt.dll" FileName="awt.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\awt.dll" SelfReg="false"/>
+    <ROW File="bci.dll" Component_="bci.dll" FileName="bci.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\bci.dll" SelfReg="false"/>
+    <ROW File="classes.jsa" Component_="classes.jsa" FileName="classes.jsa" Attributes="1" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\client\classes.jsa" SelfReg="false"/>
+    <ROW File="jvm.dll" Component_="jvm.dll" FileName="jvm.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\client\jvm.dll" SelfReg="false"/>
+    <ROW File="Xusage.txt" Component_="classes.jsa" FileName="Xusage.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\client\Xusage.txt" SelfReg="false"/>
+    <ROW File="dcpr.dll" Component_="dcpr.dll" FileName="dcpr.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\dcpr.dll" SelfReg="false"/>
+    <ROW File="decora_sse.dll" Component_="decora_sse.dll" FileName="DECORA~1.DLL|decora_sse.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\decora_sse.dll" SelfReg="false"/>
+    <ROW File="deploy.dll" Component_="deploy.dll" FileName="deploy.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\deploy.dll" SelfReg="false"/>
+    <ROW File="deployJava1.dll" Component_="deployJava1.dll" FileName="DEPLOY~1.DLL|deployJava1.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\dtplugin\deployJava1.dll" SelfReg="false"/>
+    <ROW File="npdeployJava1.dll" Component_="npdeployJava1.dll" FileName="NPDEPL~1.DLL|npdeployJava1.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\dtplugin\npdeployJava1.dll" SelfReg="false"/>
+    <ROW File="dt_shmem.dll" Component_="dt_shmem.dll" FileName="dt_shmem.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\dt_shmem.dll" SelfReg="false"/>
+    <ROW File="dt_socket.dll" Component_="dt_socket.dll" FileName="DT_SOC~1.DLL|dt_socket.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\dt_socket.dll" SelfReg="false"/>
+    <ROW File="eula.dll" Component_="eula.dll" FileName="eula.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\eula.dll" SelfReg="false"/>
+    <ROW File="fontmanager.dll" Component_="fontmanager.dll" FileName="FONTMA~1.DLL|fontmanager.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\fontmanager.dll" SelfReg="false"/>
+    <ROW File="fxplugins.dll" Component_="fxplugins.dll" FileName="FXPLUG~1.DLL|fxplugins.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\fxplugins.dll" SelfReg="false"/>
+    <ROW File="glass.dll" Component_="glass.dll" FileName="glass.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\glass.dll" SelfReg="false"/>
+    <ROW File="gliblite.dll" Component_="gliblite.dll" FileName="GLIB-L~1.DLL|glib-lite.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\glib-lite.dll" SelfReg="false"/>
+    <ROW File="gstreamerlite.dll" Component_="gstreamerlite.dll" FileName="GSTREA~1.DLL|gstreamer-lite.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\gstreamer-lite.dll" SelfReg="false"/>
+    <ROW File="hprof.dll" Component_="hprof.dll" FileName="hprof.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\hprof.dll" SelfReg="false"/>
+    <ROW File="instrument.dll" Component_="instrument.dll" FileName="INSTRU~1.DLL|instrument.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\instrument.dll" SelfReg="false"/>
+    <ROW File="j2pcsc.dll" Component_="j2pcsc.dll" FileName="j2pcsc.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\j2pcsc.dll" SelfReg="false"/>
+    <ROW File="j2pkcs11.dll" Component_="j2pkcs11.dll" FileName="j2pkcs11.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\j2pkcs11.dll" SelfReg="false"/>
+    <ROW File="jaas_nt.dll" Component_="jaas_nt.dll" FileName="jaas_nt.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jaas_nt.dll" SelfReg="false"/>
+    <ROW File="jabswitch.exe_1" Component_="jabswitch.exe_1" FileName="JABSWI~1.EXE|jabswitch.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jabswitch.exe" SelfReg="false"/>
+    <ROW File="javarmi.exe_1" Component_="javarmi.exe_1" FileName="java-rmi.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\java-rmi.exe" SelfReg="false"/>
+    <ROW File="java.dll" Component_="java.dll" FileName="java.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\java.dll" SelfReg="false"/>
+    <ROW File="java.exe_1" Component_="java.exe_1" FileName="java.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\java.exe" SelfReg="false"/>
+    <ROW File="JavaAccessBridge32.dll" Component_="JavaAccessBridge32.dll" FileName="JAVAAC~1.DLL|JavaAccessBridge-32.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\JavaAccessBridge-32.dll" SelfReg="false"/>
+    <ROW File="javacpl.cpl" Component_="javacpl.cpl" FileName="javacpl.cpl" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javacpl.cpl" SelfReg="false"/>
+    <ROW File="javacpl.exe" Component_="javacpl.exe" FileName="javacpl.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javacpl.exe" SelfReg="false"/>
+    <ROW File="javafx_font.dll" Component_="javafx_font.dll" FileName="JAVAFX~1.DLL|javafx_font.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javafx_font.dll" SelfReg="false"/>
+    <ROW File="javafx_font_t2k.dll" Component_="javafx_font_t2k.dll" FileName="JAVAFX~2.DLL|javafx_font_t2k.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javafx_font_t2k.dll" SelfReg="false"/>
+    <ROW File="javafx_iio.dll" Component_="javafx_iio.dll" FileName="JAVAFX~3.DLL|javafx_iio.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javafx_iio.dll" SelfReg="false"/>
+    <ROW File="javaw.exe_1" Component_="javaw.exe_1" FileName="javaw.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javaw.exe" SelfReg="false"/>
+    <ROW File="javaws.exe_1" Component_="javaws.exe_1" FileName="javaws.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\javaws.exe" SelfReg="false"/>
+    <ROW File="java_crw_demo.dll" Component_="java_crw_demo.dll" FileName="JAVA_C~1.DLL|java_crw_demo.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\java_crw_demo.dll" SelfReg="false"/>
+    <ROW File="jawt.dll" Component_="jawt.dll" FileName="jawt.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jawt.dll" SelfReg="false"/>
+    <ROW File="JAWTAccessBridge32.dll" Component_="JAWTAccessBridge32.dll" FileName="JAWTAC~1.DLL|JAWTAccessBridge-32.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\JAWTAccessBridge-32.dll" SelfReg="false"/>
+    <ROW File="jdwp.dll" Component_="jdwp.dll" FileName="jdwp.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jdwp.dll" SelfReg="false"/>
+    <ROW File="jfr.dll" Component_="jfr.dll" FileName="jfr.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jfr.dll" SelfReg="false"/>
+    <ROW File="jfxmedia.dll" Component_="jfxmedia.dll" FileName="jfxmedia.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jfxmedia.dll" SelfReg="false"/>
+    <ROW File="jfxwebkit.dll" Component_="jfxwebkit.dll" FileName="JFXWEB~1.DLL|jfxwebkit.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jfxwebkit.dll" SelfReg="false"/>
+    <ROW File="jjs.exe_1" Component_="jjs.exe_1" FileName="jjs.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jjs.exe" SelfReg="false"/>
+    <ROW File="jli.dll_1" Component_="jli.dll_1" FileName="jli.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jli.dll" SelfReg="false"/>
+    <ROW File="jp2iexp.dll" Component_="jp2iexp.dll" FileName="jp2iexp.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jp2iexp.dll" SelfReg="false"/>
+    <ROW File="jp2launcher.exe" Component_="jp2launcher.exe" FileName="JP2LAU~1.EXE|jp2launcher.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jp2launcher.exe" SelfReg="false"/>
+    <ROW File="jp2native.dll" Component_="jp2native.dll" FileName="JP2NAT~1.DLL|jp2native.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jp2native.dll" SelfReg="false"/>
+    <ROW File="jp2ssv.dll" Component_="jp2ssv.dll" FileName="jp2ssv.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jp2ssv.dll" SelfReg="false"/>
+    <ROW File="jpeg.dll" Component_="jpeg.dll" FileName="jpeg.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jpeg.dll" SelfReg="false"/>
+    <ROW File="jsdt.dll" Component_="jsdt.dll" FileName="jsdt.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jsdt.dll" SelfReg="false"/>
+    <ROW File="jsound.dll" Component_="jsound.dll" FileName="jsound.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jsound.dll" SelfReg="false"/>
+    <ROW File="jsoundds.dll" Component_="jsoundds.dll" FileName="jsoundds.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\jsoundds.dll" SelfReg="false"/>
+    <ROW File="kcms.dll" Component_="kcms.dll" FileName="kcms.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\kcms.dll" SelfReg="false"/>
+    <ROW File="keytool.exe_1" Component_="keytool.exe_1" FileName="keytool.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\keytool.exe" SelfReg="false"/>
+    <ROW File="kinit.exe_1" Component_="kinit.exe_1" FileName="kinit.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\kinit.exe" SelfReg="false"/>
+    <ROW File="klist.exe_1" Component_="klist.exe_1" FileName="klist.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\klist.exe" SelfReg="false"/>
+    <ROW File="ktab.exe_1" Component_="ktab.exe_1" FileName="ktab.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\ktab.exe" SelfReg="false"/>
+    <ROW File="lcms.dll" Component_="lcms.dll" FileName="lcms.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\lcms.dll" SelfReg="false"/>
+    <ROW File="management.dll" Component_="management.dll" FileName="MANAGE~1.DLL|management.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\management.dll" SelfReg="false"/>
+    <ROW File="mlib_image.dll" Component_="mlib_image.dll" FileName="MLIB_I~1.DLL|mlib_image.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\mlib_image.dll" SelfReg="false"/>
+    <ROW File="msvcp120.dll" Component_="msvcp120.dll" FileName="msvcp120.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\msvcp120.dll" SelfReg="false"/>
+    <ROW File="msvcr100.dll_1" Component_="msvcr100.dll_1" FileName="msvcr100.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\msvcr100.dll" SelfReg="false"/>
+    <ROW File="msvcr120.dll" Component_="msvcr120.dll" FileName="msvcr120.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\msvcr120.dll" SelfReg="false"/>
+    <ROW File="net.dll" Component_="net.dll" FileName="net.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\net.dll" SelfReg="false"/>
+    <ROW File="nio.dll" Component_="nio.dll" FileName="nio.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\nio.dll" SelfReg="false"/>
+    <ROW File="npt.dll" Component_="npt.dll" FileName="npt.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\npt.dll" SelfReg="false"/>
+    <ROW File="orbd.exe_1" Component_="orbd.exe_1" FileName="orbd.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\orbd.exe" SelfReg="false"/>
+    <ROW File="pack200.exe_1" Component_="pack200.exe_1" FileName="pack200.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\pack200.exe" SelfReg="false"/>
+    <ROW File="msvcr100.dll_2" Component_="msvcr100.dll_2" FileName="msvcr100.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\plugin2\msvcr100.dll" SelfReg="false"/>
+    <ROW File="npjp2.dll" Component_="npjp2.dll" FileName="npjp2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\plugin2\npjp2.dll" SelfReg="false"/>
+    <ROW File="policytool.exe_1" Component_="policytool.exe_1" FileName="POLICY~1.EXE|policytool.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\policytool.exe" SelfReg="false"/>
+    <ROW File="prism_common.dll" Component_="prism_common.dll" FileName="PRISM_~1.DLL|prism_common.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\prism_common.dll" SelfReg="false"/>
+    <ROW File="prism_d3d.dll" Component_="prism_d3d.dll" FileName="PRISM_~2.DLL|prism_d3d.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\prism_d3d.dll" SelfReg="false"/>
+    <ROW File="prism_sw.dll" Component_="prism_sw.dll" FileName="prism_sw.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\prism_sw.dll" SelfReg="false"/>
+    <ROW File="resource.dll" Component_="resource.dll" FileName="resource.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\resource.dll" SelfReg="false"/>
+    <ROW File="rmid.exe_1" Component_="rmid.exe_1" FileName="rmid.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\rmid.exe" SelfReg="false"/>
+    <ROW File="rmiregistry.exe_1" Component_="rmiregistry.exe_1" FileName="RMIREG~1.EXE|rmiregistry.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\rmiregistry.exe" SelfReg="false"/>
+    <ROW File="sawindbg.dll" Component_="sawindbg.dll" FileName="sawindbg.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\sawindbg.dll" SelfReg="false"/>
+    <ROW File="jvm.dll_1" Component_="jvm.dll_1" FileName="jvm.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\server\jvm.dll" SelfReg="false"/>
+    <ROW File="Xusage.txt_1" Component_="Xusage.txt" FileName="Xusage.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\server\Xusage.txt" SelfReg="false"/>
+    <ROW File="servertool.exe_1" Component_="servertool.exe_1" FileName="SERVER~1.EXE|servertool.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\servertool.exe" SelfReg="false"/>
+    <ROW File="splashscreen.dll" Component_="splashscreen.dll" FileName="SPLASH~1.DLL|splashscreen.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\splashscreen.dll" SelfReg="false"/>
+    <ROW File="ssv.dll" Component_="ssv.dll" FileName="ssv.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\ssv.dll" SelfReg="false"/>
+    <ROW File="ssvagent.exe" Component_="ssvagent.exe" FileName="ssvagent.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\ssvagent.exe" SelfReg="false"/>
+    <ROW File="sunec.dll" Component_="sunec.dll" FileName="sunec.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\sunec.dll" SelfReg="false"/>
+    <ROW File="sunmscapi.dll" Component_="sunmscapi.dll" FileName="SUNMSC~1.DLL|sunmscapi.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\sunmscapi.dll" SelfReg="false"/>
+    <ROW File="t2k.dll" Component_="t2k.dll" FileName="t2k.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\t2k.dll" SelfReg="false"/>
+    <ROW File="tnameserv.exe_1" Component_="tnameserv.exe_1" FileName="TNAMES~1.EXE|tnameserv.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\tnameserv.exe" SelfReg="false"/>
+    <ROW File="unpack.dll" Component_="unpack.dll" FileName="unpack.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\unpack.dll" SelfReg="false"/>
+    <ROW File="unpack200.exe_1" Component_="unpack200.exe_1" FileName="UNPACK~1.EXE|unpack200.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\unpack200.exe" SelfReg="false"/>
+    <ROW File="verify.dll" Component_="verify.dll" FileName="verify.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\verify.dll" SelfReg="false"/>
+    <ROW File="w2k_lsa_auth.dll" Component_="w2k_lsa_auth.dll" FileName="W2K_LS~1.DLL|w2k_lsa_auth.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\w2k_lsa_auth.dll" SelfReg="false"/>
+    <ROW File="WindowsAccessBridge32.dll" Component_="WindowsAccessBridge32.dll" FileName="WINDOW~1.DLL|WindowsAccessBridge-32.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\WindowsAccessBridge-32.dll" SelfReg="false"/>
+    <ROW File="wsdetect.dll" Component_="wsdetect.dll" FileName="wsdetect.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\wsdetect.dll" SelfReg="false"/>
+    <ROW File="zip.dll" Component_="zip.dll" FileName="zip.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\bin\zip.dll" SelfReg="false"/>
+    <ROW File="COPYRIGHT" Component_="COPYRIGHT" FileName="COPYRI~1|COPYRIGHT" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\COPYRIGHT" SelfReg="false"/>
+    <ROW File="accessibility.properties" Component_="accessibility.properties" FileName="ACCESS~1.PRO|accessibility.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\accessibility.properties" SelfReg="false"/>
+    <ROW File="calendars.properties" Component_="accessibility.properties" FileName="CALEND~1.PRO|calendars.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\calendars.properties" SelfReg="false"/>
+    <ROW File="charsets.jar" Component_="accessibility.properties" FileName="charsets.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\charsets.jar" SelfReg="false"/>
+    <ROW File="classlist" Component_="accessibility.properties" FileName="CLASSL~1|classlist" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\classlist" SelfReg="false"/>
+    <ROW File="CIEXYZ.pf" Component_="CIEXYZ.pf" FileName="CIEXYZ.pf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\cmm\CIEXYZ.pf" SelfReg="false"/>
+    <ROW File="GRAY.pf" Component_="CIEXYZ.pf" FileName="GRAY.pf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\cmm\GRAY.pf" SelfReg="false"/>
+    <ROW File="LINEAR_RGB.pf" Component_="CIEXYZ.pf" FileName="LINEAR~1.PF|LINEAR_RGB.pf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\cmm\LINEAR_RGB.pf" SelfReg="false"/>
+    <ROW File="PYCC.pf" Component_="CIEXYZ.pf" FileName="PYCC.pf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\cmm\PYCC.pf" SelfReg="false"/>
+    <ROW File="sRGB.pf" Component_="CIEXYZ.pf" FileName="sRGB.pf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\cmm\sRGB.pf" SelfReg="false"/>
+    <ROW File="contenttypes.properties" Component_="accessibility.properties" FileName="CONTEN~1.PRO|content-types.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\content-types.properties" SelfReg="false"/>
+    <ROW File="currency.data" Component_="accessibility.properties" FileName="CURREN~1.DAT|currency.data" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\currency.data" SelfReg="false"/>
+    <ROW File="ffjcext.zip" Component_="ffjcext.zip" FileName="ffjcext.zip" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\ffjcext.zip" SelfReg="false"/>
+    <ROW File="messages.properties" Component_="ffjcext.zip" FileName="MESSAG~1.PRO|messages.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages.properties" SelfReg="false"/>
+    <ROW File="messages_de.properties" Component_="ffjcext.zip" FileName="MESSAG~2.PRO|messages_de.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_de.properties" SelfReg="false"/>
+    <ROW File="messages_es.properties" Component_="ffjcext.zip" FileName="MESSAG~3.PRO|messages_es.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_es.properties" SelfReg="false"/>
+    <ROW File="messages_fr.properties" Component_="ffjcext.zip" FileName="MESSAG~4.PRO|messages_fr.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_fr.properties" SelfReg="false"/>
+    <ROW File="messages_it.properties" Component_="ffjcext.zip" FileName="MESSAG~5.PRO|messages_it.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_it.properties" SelfReg="false"/>
+    <ROW File="messages_ja.properties" Component_="ffjcext.zip" FileName="MESSAG~6.PRO|messages_ja.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_ja.properties" SelfReg="false"/>
+    <ROW File="messages_ko.properties" Component_="ffjcext.zip" FileName="MESSAG~7.PRO|messages_ko.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_ko.properties" SelfReg="false"/>
+    <ROW File="messages_pt_BR.properties" Component_="ffjcext.zip" FileName="MESSAG~8.PRO|messages_pt_BR.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_pt_BR.properties" SelfReg="false"/>
+    <ROW File="messages_sv.properties" Component_="ffjcext.zip" FileName="MESSAG~9.PRO|messages_sv.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_sv.properties" SelfReg="false"/>
+    <ROW File="messages_zh_CN.properties" Component_="ffjcext.zip" FileName="MESSA~10.PRO|messages_zh_CN.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_zh_CN.properties" SelfReg="false"/>
+    <ROW File="messages_zh_HK.properties" Component_="ffjcext.zip" FileName="MESSA~11.PRO|messages_zh_HK.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_zh_HK.properties" SelfReg="false"/>
+    <ROW File="messages_zh_TW.properties" Component_="ffjcext.zip" FileName="MESSA~12.PRO|messages_zh_TW.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\messages_zh_TW.properties" SelfReg="false"/>
+    <ROW File="splash.gif" Component_="ffjcext.zip" FileName="splash.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\splash.gif" SelfReg="false"/>
+    <ROW File="splash2x.gif" Component_="ffjcext.zip" FileName="SPLASH~1.GIF|splash@2x.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\splash@2x.gif" SelfReg="false"/>
+    <ROW File="splash_11lic.gif" Component_="ffjcext.zip" FileName="SPLASH~2.GIF|splash_11-lic.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\splash_11-lic.gif" SelfReg="false"/>
+    <ROW File="splash_112xlic.gif" Component_="ffjcext.zip" FileName="SPLASH~3.GIF|splash_11@2x-lic.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy\splash_11@2x-lic.gif" SelfReg="false"/>
+    <ROW File="deploy.jar" Component_="accessibility.properties" FileName="deploy.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\deploy.jar" SelfReg="false"/>
+    <ROW File="accessbridge32.jar" Component_="accessbridge32.jar" FileName="ACCESS~1.JAR|access-bridge-32.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-32.jar" SelfReg="false"/>
+    <ROW File="cldrdata.jar" Component_="accessbridge32.jar" FileName="cldrdata.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar" SelfReg="false"/>
+    <ROW File="dnsns.jar" Component_="accessbridge32.jar" FileName="dnsns.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar" SelfReg="false"/>
+    <ROW File="jaccess.jar" Component_="accessbridge32.jar" FileName="jaccess.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar" SelfReg="false"/>
+    <ROW File="jfxrt.jar" Component_="accessbridge32.jar" FileName="jfxrt.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar" SelfReg="false"/>
+    <ROW File="localedata.jar" Component_="accessbridge32.jar" FileName="LOCALE~1.JAR|localedata.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar" SelfReg="false"/>
+    <ROW File="metaindex" Component_="accessbridge32.jar" FileName="META-I~1|meta-index" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\meta-index" SelfReg="false"/>
+    <ROW File="nashorn.jar" Component_="accessbridge32.jar" FileName="nashorn.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar" SelfReg="false"/>
+    <ROW File="sunec.jar" Component_="accessbridge32.jar" FileName="sunec.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar" SelfReg="false"/>
+    <ROW File="sunjce_provider.jar" Component_="accessbridge32.jar" FileName="SUNJCE~1.JAR|sunjce_provider.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar" SelfReg="false"/>
+    <ROW File="sunmscapi.jar" Component_="accessbridge32.jar" FileName="SUNMSC~1.JAR|sunmscapi.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar" SelfReg="false"/>
+    <ROW File="sunpkcs11.jar" Component_="accessbridge32.jar" FileName="SUNPKC~1.JAR|sunpkcs11.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar" SelfReg="false"/>
+    <ROW File="zipfs.jar" Component_="accessbridge32.jar" FileName="zipfs.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar" SelfReg="false"/>
+    <ROW File="flavormap.properties" Component_="accessibility.properties" FileName="FLAVOR~1.PRO|flavormap.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\flavormap.properties" SelfReg="false"/>
+    <ROW File="fontconfig.bfc" Component_="accessibility.properties" FileName="FONTCO~1.BFC|fontconfig.bfc" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fontconfig.bfc" SelfReg="false"/>
+    <ROW File="fontconfig.properties.src" Component_="accessibility.properties" FileName="FONTCO~1.SRC|fontconfig.properties.src" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fontconfig.properties.src" SelfReg="false"/>
+    <ROW File="LucidaBrightDemiBold.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~1.TTF|LucidaBrightDemiBold.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaBrightDemiBold.ttf" SelfReg="false"/>
+    <ROW File="LucidaBrightDemiItalic.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~2.TTF|LucidaBrightDemiItalic.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaBrightDemiItalic.ttf" SelfReg="false"/>
+    <ROW File="LucidaBrightItalic.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~3.TTF|LucidaBrightItalic.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaBrightItalic.ttf" SelfReg="false"/>
+    <ROW File="LucidaBrightRegular.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~4.TTF|LucidaBrightRegular.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaBrightRegular.ttf" SelfReg="false"/>
+    <ROW File="LucidaSansDemiBold.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~5.TTF|LucidaSansDemiBold.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaSansDemiBold.ttf" SelfReg="false"/>
+    <ROW File="LucidaSansRegular.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~6.TTF|LucidaSansRegular.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaSansRegular.ttf" SelfReg="false"/>
+    <ROW File="LucidaTypewriterBold.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~7.TTF|LucidaTypewriterBold.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaTypewriterBold.ttf" SelfReg="false"/>
+    <ROW File="LucidaTypewriterRegular.ttf" Component_="LucidaBrightDemiBold.ttf" FileName="LUCIDA~8.TTF|LucidaTypewriterRegular.ttf" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\fonts\LucidaTypewriterRegular.ttf" SelfReg="false"/>
+    <ROW File="hijrahconfigumalqura.properties" Component_="accessibility.properties" FileName="HIJRAH~1.PRO|hijrah-config-umalqura.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\hijrah-config-umalqura.properties" SelfReg="false"/>
+    <ROW File="jvm.cfg" Component_="jvm.cfg" FileName="jvm.cfg" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\i386\jvm.cfg" SelfReg="false"/>
+    <ROW File="cursors.properties" Component_="cursors.properties" FileName="CURSOR~1.PRO|cursors.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\cursors.properties" SelfReg="false"/>
+    <ROW File="invalid32x32.gif" Component_="cursors.properties" FileName="INVALI~1.GIF|invalid32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\invalid32x32.gif" SelfReg="false"/>
+    <ROW File="win32_CopyDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~1.GIF|win32_CopyDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_CopyDrop32x32.gif" SelfReg="false"/>
+    <ROW File="win32_CopyNoDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~2.GIF|win32_CopyNoDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif" SelfReg="false"/>
+    <ROW File="win32_LinkDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~3.GIF|win32_LinkDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_LinkDrop32x32.gif" SelfReg="false"/>
+    <ROW File="win32_LinkNoDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~4.GIF|win32_LinkNoDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif" SelfReg="false"/>
+    <ROW File="win32_MoveDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~5.GIF|win32_MoveDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_MoveDrop32x32.gif" SelfReg="false"/>
+    <ROW File="win32_MoveNoDrop32x32.gif" Component_="cursors.properties" FileName="WIN32_~6.GIF|win32_MoveNoDrop32x32.gif" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif" SelfReg="false"/>
+    <ROW File="javafx.properties" Component_="accessibility.properties" FileName="JAVAFX~1.PRO|javafx.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\javafx.properties" SelfReg="false"/>
+    <ROW File="javaws.jar" Component_="accessibility.properties" FileName="javaws.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\javaws.jar" SelfReg="false"/>
+    <ROW File="jce.jar" Component_="accessibility.properties" FileName="jce.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jce.jar" SelfReg="false"/>
+    <ROW File="default.jfc" Component_="default.jfc" FileName="default.jfc" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jfr\default.jfc" SelfReg="false"/>
+    <ROW File="profile.jfc" Component_="default.jfc" FileName="profile.jfc" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jfr\profile.jfc" SelfReg="false"/>
+    <ROW File="jfr.jar" Component_="accessibility.properties" FileName="jfr.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jfr.jar" SelfReg="false"/>
+    <ROW File="jfxswt.jar" Component_="accessibility.properties" FileName="jfxswt.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jfxswt.jar" SelfReg="false"/>
+    <ROW File="jsse.jar" Component_="accessibility.properties" FileName="jsse.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jsse.jar" SelfReg="false"/>
+    <ROW File="jvm.hprof.txt" Component_="accessibility.properties" FileName="JVMHPR~1.TXT|jvm.hprof.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\jvm.hprof.txt" SelfReg="false"/>
+    <ROW File="logging.properties" Component_="accessibility.properties" FileName="LOGGIN~1.PRO|logging.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\logging.properties" SelfReg="false"/>
+    <ROW File="jmxremote.access" Component_="jmxremote.access" FileName="JMXREM~1.ACC|jmxremote.access" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\management\jmxremote.access" SelfReg="false"/>
+    <ROW File="jmxremote.password.template" Component_="jmxremote.access" FileName="JMXREM~1.TEM|jmxremote.password.template" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\management\jmxremote.password.template" SelfReg="false"/>
+    <ROW File="management.properties" Component_="jmxremote.access" FileName="MANAGE~1.PRO|management.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\management\management.properties" SelfReg="false"/>
+    <ROW File="snmp.acl.template" Component_="jmxremote.access" FileName="SNMPAC~1.TEM|snmp.acl.template" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\management\snmp.acl.template" SelfReg="false"/>
+    <ROW File="managementagent.jar" Component_="accessibility.properties" FileName="MANAGE~1.JAR|management-agent.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\management-agent.jar" SelfReg="false"/>
+    <ROW File="metaindex_1" Component_="accessibility.properties" FileName="META-I~1|meta-index" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\meta-index" SelfReg="false"/>
+    <ROW File="net.properties" Component_="accessibility.properties" FileName="NET~1.PRO|net.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\net.properties" SelfReg="false"/>
+    <ROW File="plugin.jar" Component_="accessibility.properties" FileName="plugin.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\plugin.jar" SelfReg="false"/>
+    <ROW File="psfont.properties.ja" Component_="accessibility.properties" FileName="PSFONT~1.JA|psfont.properties.ja" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\psfont.properties.ja" SelfReg="false"/>
+    <ROW File="psfontj2d.properties" Component_="accessibility.properties" FileName="PSFONT~1.PRO|psfontj2d.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\psfontj2d.properties" SelfReg="false"/>
+    <ROW File="resources.jar" Component_="accessibility.properties" FileName="RESOUR~1.JAR|resources.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\resources.jar" SelfReg="false"/>
+    <ROW File="rt.jar" Component_="accessibility.properties" FileName="rt.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\rt.jar" SelfReg="false"/>
+    <ROW File="blacklist" Component_="blacklist" FileName="BLACKL~1|blacklist" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\blacklist" SelfReg="false"/>
+    <ROW File="blacklisted.certs" Component_="blacklist" FileName="BLACKL~1.CER|blacklisted.certs" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\blacklisted.certs" SelfReg="false"/>
+    <ROW File="cacerts" Component_="blacklist" FileName="cacerts" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\cacerts" SelfReg="false"/>
+    <ROW File="java.policy" Component_="blacklist" FileName="JAVA~1.POL|java.policy" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\java.policy" SelfReg="false"/>
+    <ROW File="java.security" Component_="blacklist" FileName="JAVA~1.SEC|java.security" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\java.security" SelfReg="false"/>
+    <ROW File="javaws.policy" Component_="blacklist" FileName="JAVAWS~1.POL|javaws.policy" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\javaws.policy" SelfReg="false"/>
+    <ROW File="local_policy.jar" Component_="blacklist" FileName="LOCAL_~1.JAR|local_policy.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\local_policy.jar" SelfReg="false"/>
+    <ROW File="trusted.libraries" Component_="blacklist" FileName="TRUSTE~1.LIB|trusted.libraries" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\trusted.libraries" SelfReg="false"/>
+    <ROW File="US_export_policy.jar" Component_="blacklist" FileName="US_EXP~1.JAR|US_export_policy.jar" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\security\US_export_policy.jar" SelfReg="false"/>
+    <ROW File="sound.properties" Component_="accessibility.properties" FileName="SOUND~1.PRO|sound.properties" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\sound.properties" SelfReg="false"/>
+    <ROW File="tzdb.dat" Component_="accessibility.properties" FileName="tzdb.dat" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\tzdb.dat" SelfReg="false"/>
+    <ROW File="tzmappings" Component_="accessibility.properties" FileName="TZMAPP~1|tzmappings" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\lib\tzmappings" SelfReg="false"/>
+    <ROW File="LICENSE" Component_="COPYRIGHT" FileName="LICENSE" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\LICENSE" SelfReg="false"/>
+    <ROW File="README.txt_1" Component_="COPYRIGHT" FileName="README.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\README.txt" SelfReg="false"/>
+    <ROW File="THIRDPARTYLICENSEREADMEJAVAFX.txt" Component_="COPYRIGHT" FileName="THIRDP~1.TXT|THIRDPARTYLICENSEREADME-JAVAFX.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt" SelfReg="false"/>
+    <ROW File="THIRDPARTYLICENSEREADME.txt" Component_="COPYRIGHT" FileName="THIRDP~2.TXT|THIRDPARTYLICENSEREADME.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\THIRDPARTYLICENSEREADME.txt" SelfReg="false"/>
+    <ROW File="Welcome.html" Component_="COPYRIGHT" FileName="WELCOM~1.HTM|Welcome.html" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Java\jdk1.8.0_111\jre\Welcome.html" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.custcomp.MsiEmbeddedUIComponent">
+    <ROW MsiEmbeddedUI="embeddeduiproxy" FileName="embeddeduiproxy.dll" Attributes="3" MessageFilter="201359327" Data="&lt;AI_HOME&gt;bin\x86\embeddeduiproxy.dll"/>
+    <ROW MsiEmbeddedUI="InstallerAnalytics" FileName="InstallerAnalytics.dll" Attributes="0" Data="&lt;AI_TEMPLATES&gt;PlaceHolder.dat"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AiPersistentPropComponent">
+    <ROW Property="AI_IA_ENABLE" Registry="AI_IA_ENABLE" HklmSearch="AI_IA_ENABLE" HkcuSearch="AI_IA_ENABLE_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="151"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="id;en" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" JREDir="jre_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_id.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;modern\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="SetupTypeDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\SetupTypeDlg.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;modern\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;modern\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Menghapus berkas yang diekstrak dari arsip" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Menghapus berkas yang diekstrak dari arsip" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Mengekstrak berkas dari arsip" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Mengekstrak berkas dari arsip" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+    <ROW Property="AI_IA_ENABLE" Signature_="AI_IA_ENABLE"/>
+    <ROW Property="AI_IA_ENABLE" Signature_="AI_IA_ENABLE_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="InstallerAnalytics.dll" SourcePath="&lt;AI_CUSTACTS&gt;InstallerAnalytics.dll"/>
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalInstallButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="401"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="102"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteInstallButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="401"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="203"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="101"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="202"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomInstallButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="102"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="2"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="204"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="205"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="CancelDlg" Control_="Yes" Event="DoAction" Argument="AI_IaLogPkgExitUserAbort" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Ordering="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_IaLogCustomInfo" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogCustomInfo"/>
+    <ROW Action="AI_IaLogInstallData" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogInstallData"/>
+    <ROW Action="AI_IaLogMachineInfo" Type="321" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogMachineInfo"/>
+    <ROW Action="AI_IaLogPkgExitFatalError" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogFatalError"/>
+    <ROW Action="AI_IaLogPkgExitFinish" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogFinish"/>
+    <ROW Action="AI_IaLogPkgExitUserAbort" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogUserAbort" WithoutSeq="true"/>
+    <ROW Action="AI_IaLogPkgStarted" Type="321" Source="InstallerAnalytics.dll" Target="OnAnalyticsLogStart"/>
+    <ROW Action="AI_IaToggle" Type="65" Source="InstallerAnalytics.dll" Target="OnAnalyticsToggle"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="StartupRestaurant" Name="=-StartupRestaurant" Value="C:\Program Files (x86)\Restaurant\Pasti Wareg Restaurant\bin" Component_="jar.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="AI_IA_ENABLE"/>
+    <ROW Feature_="MainFeature" Component_="appletviewer.exe"/>
+    <ROW Feature_="MainFeature" Component_="extcheck.exe"/>
+    <ROW Feature_="MainFeature" Component_="idlj.exe"/>
+    <ROW Feature_="MainFeature" Component_="jabswitch.exe"/>
+    <ROW Feature_="MainFeature" Component_="jar.exe"/>
+    <ROW Feature_="MainFeature" Component_="jarsigner.exe"/>
+    <ROW Feature_="MainFeature" Component_="javarmi.exe"/>
+    <ROW Feature_="MainFeature" Component_="java.exe"/>
+    <ROW Feature_="MainFeature" Component_="javac.exe"/>
+    <ROW Feature_="MainFeature" Component_="javadoc.exe"/>
+    <ROW Feature_="MainFeature" Component_="javafxpackager.exe"/>
+    <ROW Feature_="MainFeature" Component_="javah.exe"/>
+    <ROW Feature_="MainFeature" Component_="javap.exe"/>
+    <ROW Feature_="MainFeature" Component_="javapackager.exe"/>
+    <ROW Feature_="MainFeature" Component_="javaw.exe"/>
+    <ROW Feature_="MainFeature" Component_="javaws.exe"/>
+    <ROW Feature_="MainFeature" Component_="jcmd.exe"/>
+    <ROW Feature_="MainFeature" Component_="jconsole.exe"/>
+    <ROW Feature_="MainFeature" Component_="jdb.exe"/>
+    <ROW Feature_="MainFeature" Component_="jdeps.exe"/>
+    <ROW Feature_="MainFeature" Component_="jhat.exe"/>
+    <ROW Feature_="MainFeature" Component_="jinfo.exe"/>
+    <ROW Feature_="MainFeature" Component_="jjs.exe"/>
+    <ROW Feature_="MainFeature" Component_="jli.dll"/>
+    <ROW Feature_="MainFeature" Component_="jmap.exe"/>
+    <ROW Feature_="MainFeature" Component_="jmc.exe"/>
+    <ROW Feature_="MainFeature" Component_="jmc.ini"/>
+    <ROW Feature_="MainFeature" Component_="jps.exe"/>
+    <ROW Feature_="MainFeature" Component_="jrunscript.exe"/>
+    <ROW Feature_="MainFeature" Component_="jsadebugd.exe"/>
+    <ROW Feature_="MainFeature" Component_="jstack.exe"/>
+    <ROW Feature_="MainFeature" Component_="jstat.exe"/>
+    <ROW Feature_="MainFeature" Component_="jstatd.exe"/>
+    <ROW Feature_="MainFeature" Component_="jvisualvm.exe"/>
+    <ROW Feature_="MainFeature" Component_="keytool.exe"/>
+    <ROW Feature_="MainFeature" Component_="kinit.exe"/>
+    <ROW Feature_="MainFeature" Component_="klist.exe"/>
+    <ROW Feature_="MainFeature" Component_="ktab.exe"/>
+    <ROW Feature_="MainFeature" Component_="msvcr100.dll"/>
+    <ROW Feature_="MainFeature" Component_="native2ascii.exe"/>
+    <ROW Feature_="MainFeature" Component_="orbd.exe"/>
+    <ROW Feature_="MainFeature" Component_="pack200.exe"/>
+    <ROW Feature_="MainFeature" Component_="policytool.exe"/>
+    <ROW Feature_="MainFeature" Component_="rmic.exe"/>
+    <ROW Feature_="MainFeature" Component_="rmid.exe"/>
+    <ROW Feature_="MainFeature" Component_="rmiregistry.exe"/>
+    <ROW Feature_="MainFeature" Component_="schemagen.exe"/>
+    <ROW Feature_="MainFeature" Component_="serialver.exe"/>
+    <ROW Feature_="MainFeature" Component_="servertool.exe"/>
+    <ROW Feature_="MainFeature" Component_="tnameserv.exe"/>
+    <ROW Feature_="MainFeature" Component_="unpack200.exe"/>
+    <ROW Feature_="MainFeature" Component_="wsgen.exe"/>
+    <ROW Feature_="MainFeature" Component_="wsimport.exe"/>
+    <ROW Feature_="MainFeature" Component_="xjc.exe"/>
+    <ROW Feature_="MainFeature" Component_="builtjar.properties"/>
+    <ROW Feature_="MainFeature" Component_="icons8_add_30px.png"/>
+    <ROW Feature_="MainFeature" Component_="Admin1.class"/>
+    <ROW Feature_="MainFeature" Component_="build.xml"/>
+    <ROW Feature_="MainFeature" Component_="kasircafe_ani_1.jar"/>
+    <ROW Feature_="MainFeature" Component_="hamcrestcore1.3.jar"/>
+    <ROW Feature_="MainFeature" Component_="icons8_add_30px.png_1"/>
+    <ROW Feature_="MainFeature" Component_="Admin.form"/>
+    <ROW Feature_="MainFeature" Component_="buildimpl.xml"/>
+    <ROW Feature_="MainFeature" Component_="private.properties"/>
+    <ROW Feature_="MainFeature" Component_="icons8_add_30px.png_2"/>
+    <ROW Feature_="MainFeature" Component_="Admin.form_1"/>
+    <ROW Feature_="MainFeature" Component_="PastiWaregRestaurant.exe"/>
+    <ROW Feature_="JREBundle" Component_="attach.dll"/>
+    <ROW Feature_="JREBundle" Component_="awt.dll"/>
+    <ROW Feature_="JREBundle" Component_="bci.dll"/>
+    <ROW Feature_="JREBundle" Component_="classes.jsa"/>
+    <ROW Feature_="JREBundle" Component_="jvm.dll"/>
+    <ROW Feature_="JREBundle" Component_="dcpr.dll"/>
+    <ROW Feature_="JREBundle" Component_="decora_sse.dll"/>
+    <ROW Feature_="JREBundle" Component_="deploy.dll"/>
+    <ROW Feature_="JREBundle" Component_="deployJava1.dll"/>
+    <ROW Feature_="JREBundle" Component_="npdeployJava1.dll"/>
+    <ROW Feature_="JREBundle" Component_="dt_shmem.dll"/>
+    <ROW Feature_="JREBundle" Component_="dt_socket.dll"/>
+    <ROW Feature_="JREBundle" Component_="eula.dll"/>
+    <ROW Feature_="JREBundle" Component_="fontmanager.dll"/>
+    <ROW Feature_="JREBundle" Component_="fxplugins.dll"/>
+    <ROW Feature_="JREBundle" Component_="glass.dll"/>
+    <ROW Feature_="JREBundle" Component_="gliblite.dll"/>
+    <ROW Feature_="JREBundle" Component_="gstreamerlite.dll"/>
+    <ROW Feature_="JREBundle" Component_="hprof.dll"/>
+    <ROW Feature_="JREBundle" Component_="instrument.dll"/>
+    <ROW Feature_="JREBundle" Component_="j2pcsc.dll"/>
+    <ROW Feature_="JREBundle" Component_="j2pkcs11.dll"/>
+    <ROW Feature_="JREBundle" Component_="jaas_nt.dll"/>
+    <ROW Feature_="JREBundle" Component_="jabswitch.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="javarmi.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="java.dll"/>
+    <ROW Feature_="JREBundle" Component_="java.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="JavaAccessBridge32.dll"/>
+    <ROW Feature_="JREBundle" Component_="javacpl.cpl"/>
+    <ROW Feature_="JREBundle" Component_="javacpl.exe"/>
+    <ROW Feature_="JREBundle" Component_="javafx_font.dll"/>
+    <ROW Feature_="JREBundle" Component_="javafx_font_t2k.dll"/>
+    <ROW Feature_="JREBundle" Component_="javafx_iio.dll"/>
+    <ROW Feature_="JREBundle" Component_="javaw.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="javaws.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="java_crw_demo.dll"/>
+    <ROW Feature_="JREBundle" Component_="jawt.dll"/>
+    <ROW Feature_="JREBundle" Component_="JAWTAccessBridge32.dll"/>
+    <ROW Feature_="JREBundle" Component_="jdwp.dll"/>
+    <ROW Feature_="JREBundle" Component_="jfr.dll"/>
+    <ROW Feature_="JREBundle" Component_="jfxmedia.dll"/>
+    <ROW Feature_="JREBundle" Component_="jfxwebkit.dll"/>
+    <ROW Feature_="JREBundle" Component_="jjs.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="jli.dll_1"/>
+    <ROW Feature_="JREBundle" Component_="jp2iexp.dll"/>
+    <ROW Feature_="JREBundle" Component_="jp2launcher.exe"/>
+    <ROW Feature_="JREBundle" Component_="jp2native.dll"/>
+    <ROW Feature_="JREBundle" Component_="jp2ssv.dll"/>
+    <ROW Feature_="JREBundle" Component_="jpeg.dll"/>
+    <ROW Feature_="JREBundle" Component_="jsdt.dll"/>
+    <ROW Feature_="JREBundle" Component_="jsound.dll"/>
+    <ROW Feature_="JREBundle" Component_="jsoundds.dll"/>
+    <ROW Feature_="JREBundle" Component_="kcms.dll"/>
+    <ROW Feature_="JREBundle" Component_="keytool.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="kinit.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="klist.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="ktab.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="lcms.dll"/>
+    <ROW Feature_="JREBundle" Component_="management.dll"/>
+    <ROW Feature_="JREBundle" Component_="mlib_image.dll"/>
+    <ROW Feature_="JREBundle" Component_="msvcp120.dll"/>
+    <ROW Feature_="JREBundle" Component_="msvcr100.dll_1"/>
+    <ROW Feature_="JREBundle" Component_="msvcr120.dll"/>
+    <ROW Feature_="JREBundle" Component_="net.dll"/>
+    <ROW Feature_="JREBundle" Component_="nio.dll"/>
+    <ROW Feature_="JREBundle" Component_="npt.dll"/>
+    <ROW Feature_="JREBundle" Component_="orbd.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="pack200.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="msvcr100.dll_2"/>
+    <ROW Feature_="JREBundle" Component_="npjp2.dll"/>
+    <ROW Feature_="JREBundle" Component_="policytool.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="prism_common.dll"/>
+    <ROW Feature_="JREBundle" Component_="prism_d3d.dll"/>
+    <ROW Feature_="JREBundle" Component_="prism_sw.dll"/>
+    <ROW Feature_="JREBundle" Component_="resource.dll"/>
+    <ROW Feature_="JREBundle" Component_="rmid.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="rmiregistry.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="sawindbg.dll"/>
+    <ROW Feature_="JREBundle" Component_="jvm.dll_1"/>
+    <ROW Feature_="JREBundle" Component_="Xusage.txt"/>
+    <ROW Feature_="JREBundle" Component_="servertool.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="splashscreen.dll"/>
+    <ROW Feature_="JREBundle" Component_="ssv.dll"/>
+    <ROW Feature_="JREBundle" Component_="ssvagent.exe"/>
+    <ROW Feature_="JREBundle" Component_="sunec.dll"/>
+    <ROW Feature_="JREBundle" Component_="sunmscapi.dll"/>
+    <ROW Feature_="JREBundle" Component_="t2k.dll"/>
+    <ROW Feature_="JREBundle" Component_="tnameserv.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="unpack.dll"/>
+    <ROW Feature_="JREBundle" Component_="unpack200.exe_1"/>
+    <ROW Feature_="JREBundle" Component_="verify.dll"/>
+    <ROW Feature_="JREBundle" Component_="w2k_lsa_auth.dll"/>
+    <ROW Feature_="JREBundle" Component_="WindowsAccessBridge32.dll"/>
+    <ROW Feature_="JREBundle" Component_="wsdetect.dll"/>
+    <ROW Feature_="JREBundle" Component_="zip.dll"/>
+    <ROW Feature_="JREBundle" Component_="COPYRIGHT"/>
+    <ROW Feature_="JREBundle" Component_="accessibility.properties"/>
+    <ROW Feature_="JREBundle" Component_="CIEXYZ.pf"/>
+    <ROW Feature_="JREBundle" Component_="ffjcext.zip"/>
+    <ROW Feature_="JREBundle" Component_="accessbridge32.jar"/>
+    <ROW Feature_="JREBundle" Component_="LucidaBrightDemiBold.ttf"/>
+    <ROW Feature_="JREBundle" Component_="jvm.cfg"/>
+    <ROW Feature_="JREBundle" Component_="cursors.properties"/>
+    <ROW Feature_="JREBundle" Component_="default.jfc"/>
+    <ROW Feature_="JREBundle" Component_="jmxremote.access"/>
+    <ROW Feature_="JREBundle" Component_="blacklist"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="icon1.exe" SourcePath="..\..\..\..\Downloads\icon (1).ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="ApplicationType" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Application" Key="Application Type" Value="gui" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="ClassPath" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Class Path" Key="Class Path" Value="[#kasircafe_ani_1.jar];[#hamcrestcore1.3.jar];[#jcalendar0.8.1.jar];[#jcommon1.0.23.jar];[#jfreechart1.0.19experimental.jar];[#jfreechart1.0.19swt.jar];[#jfreechart1.0.19.jar];[#jfreesvg2.0.jar];[#junit4.11.jar];[#mysqlconnectorjava5.1.23bin.jar];[#orsoncharts1.4evalnofx.jar];[#orsonpdf1.6eval.jar];[#servlet.jar];[#swtgraphics2d.jar];" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="EmbeddedJar" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Application" Key="Embedded Jar" Value="yes" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="FailureCheck" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Application" Key="Failure Check" Value="yes" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="LibraryPath" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Library Path" Value="[bin_Dir];" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="MainClass" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Main Class" Value="kasircafe_ani.FormLogin" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="MaximumVersion" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Maximum Version" Value="1.8" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="MinimumVersion" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Minimum Version" Value="1.6" Action="0" Component_="PastiWaregRestaurant.exe"/>
+    <ROW IniFile="Preferredversions" FileName="PASTIW~1.INI|Pasti Wareg Restaurant.ini" DirProperty="APPDIR" Section="Java Runtime Environment" Key="Preferred versions" Value="1.8" Action="0" Component_="PastiWaregRestaurant.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_DETECT_MODERNWIN" Condition="(VersionNT &gt;= 603)" Sequence="57" MsiKey="AI_DETECT_MODERNWIN"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="56"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="55"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_IaToggle" Sequence="102"/>
+    <ROW Action="AI_IaLogPkgStarted" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Sequence="54"/>
+    <ROW Action="AI_IaLogPkgExitFinish" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Sequence="-1"/>
+    <ROW Action="AI_IaLogPkgExitFatalError" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Sequence="-3"/>
+    <ROW Action="AI_IaLogPkgExitUserAbort" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Sequence="-2"/>
+    <ROW Action="AI_IaLogInstallData" Sequence="1402"/>
+    <ROW Action="AI_IaLogMachineInfo" Sequence="399"/>
+    <ROW Action="AI_IaLogCustomInfo" Sequence="1401"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="54"/>
+    <ROW Action="AI_DpiContentScale" Sequence="53"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="52"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="98"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="102"/>
+    <ROW Action="AI_IaToggle" Sequence="99"/>
+    <ROW Action="AI_IaLogPkgStarted" Condition="VersionMsi &lt; &quot;4.05&quot; OR UILevel = 2 OR LIMITUI = 1 OR UPGRADINGPRODUCTCODE" Sequence="51"/>
+    <ROW Action="AI_IaLogMachineInfo" Sequence="399"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiJavaComponent">
+    <ROW Name="Pasti Wareg Restaurant.exe" Launcher="PastiWaregRestaurant.exe" MainClass="MainClass" ClassPath="ClassPath" JREMin="MinimumVersion" JREMax="MaximumVersion" IconPath="..\..\..\..\Downloads\icon (1).ico" AppType="ApplicationType" PreferredVersion="Preferredversions" LibPath="LibraryPath" PlusList="APPDIR;" MinusList="#PastiWaregRestaurant.exe;" MacDescription="[|CurrentJavaProductName] [|ProductVersion] © [|Manufacturer], Inc, 2022" MacBundleId="com.[|Manufacturer].[|ProductName].[|CurrentJavaProductName]" FailureCheck="FailureCheck" UACExecutionLevel="0" MacExcluded="true" Platform64="true" EmbJarPath="..\..\..\NetBeansProjects\kasircafe_ani_1\dist\kasircafe_ani_1.jar" HasEmbJar="EmbeddedJar"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] tidak dapat diinstal di [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] tidak dapat diinstal di [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_IA_ENABLE" Root="2" Key="Software\[Manufacturer]\[ProductCode]" Name="AI_IA_ENABLE" Type="2"/>
+    <ROW Signature_="AI_IA_ENABLE_1" Root="1" Key="Software\[Manufacturer]\[ProductCode]" Name="AI_IA_ENABLE" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AI_IA_ENABLE" Root="-1" Key="Software\[Manufacturer]\[ProductCode]" Name="AI_IA_ENABLE" Value="[AI_IA_ENABLE]" Component_="AI_IA_ENABLE"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductCode_1" Root="-1" Key="Software\[Manufacturer]\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="PastiWaregRestaurant.exe" Directory_="DesktopFolder" Name="PASTIW~1.EXE|PastiWaregRestaurant.exe" Component_="PastiWaregRestaurant.exe" Target="[#PastiWaregRestaurant.exe]" Description="PastiWaregRestaurant.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="modern"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
